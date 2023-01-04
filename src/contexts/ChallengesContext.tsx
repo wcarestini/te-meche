@@ -15,7 +15,7 @@ interface ChallengesContextData {
   challengesCompleted: number;
   currentExperience: number;
   levelUp: () => void;
-  activeChallenge: Challenge;
+  activeChallenge: Challenge | undefined;
   resetChallenge: () => void;
   experienceToNextLevel: number;
   completeChallenge: () => void;
