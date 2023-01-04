@@ -82,7 +82,7 @@ export function ChallengesProvider({
   }
 
   function resetChallenge() {
-    setActiveChallenge(null);
+    setActiveChallenge(undefined);
   }
 
   function completeChallenge() {
