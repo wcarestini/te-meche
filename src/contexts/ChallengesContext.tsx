@@ -42,7 +42,9 @@ export function ChallengesProvider({
     rest.challengesCompleted ?? 0
   );
 
-  const [activeChallenge, setActiveChallenge] = useState<Challenge>();
+  const [activeChallenge, setActiveChallenge] = useState<
+    Challenge | undefined
+  >();
   const [isLevelUpModalOpen, setIsLevelUpModalOpen] = useState(false);
 
   const experienceToNextLevel = Math.pow((level + 1) * 4, 2);
@@ -100,7 +102,7 @@ export function ChallengesProvider({
     }
 
     setCurrentExperience(finalExperience);
-    setActiveChallenge(null);
+    setActiveChallenge(undefined);
     setChallengesCompleted(challengesCompleted + 1);
   }
 
