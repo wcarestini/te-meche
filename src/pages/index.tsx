@@ -10,17 +10,21 @@ import styles from "../styles/pages/Home.module.css";
 import { CountdownProvider } from "../contexts/CountdownContext";
 import { GetServerSideProps } from "next";
 import { ChallengesProvider } from "../contexts/ChallengesContext";
+import Cookies from "js-cookie";
+import { useEffect, useState } from "react";
 
 interface HomeProps {
   level: number;
   currentExperience: number;
   challengesCompleted: number;
+  time: number;
 }
 
 export default function Home({
   level,
   currentExperience,
   challengesCompleted,
+  time,
 }: HomeProps) {
   return (
     <ChallengesProvider
@@ -34,7 +38,8 @@ export default function Home({
       </Head>
       <main className={styles.container}>
         <ExperienceBar />
-        <CountdownProvider>
+
+        <CountdownProvider userTime={time}>
           <section>
             <div>
               <Profile />
@@ -52,13 +57,15 @@ export default function Home({
 }
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
-  const { level, currentExperience, challengesCompleted } = context.req.cookies;
+  const { level, currentExperience, challengesCompleted, time } =
+    context.req.cookies;
 
   return {
     props: {
       level: Number(level),
       currentExperience: Number(currentExperience),
       challengesCompleted: Number(challengesCompleted),
+      time: Number(time),
     },
   };
 };

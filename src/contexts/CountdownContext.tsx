@@ -1,3 +1,4 @@
+import Cookies from "js-cookie";
 import {
   createContext,
   ReactNode,
@@ -6,6 +7,7 @@ import {
   useState,
 } from "react";
 import { ChallengesContext } from "./ChallengesContext";
+import styles from "../styles/pages/Home.module.css";
 
 interface CountdownContextData {
   minutes: number;
@@ -18,16 +20,20 @@ interface CountdownContextData {
 
 interface CountdownProviderProps {
   children: ReactNode;
+  userTime: number;
 }
 
 export const CountdownContext = createContext({} as CountdownContextData);
 
 let countdownTimeout: NodeJS.Timeout;
 
-export function CountdownProvider({ children }: CountdownProviderProps) {
+export function CountdownProvider({
+  children,
+  userTime,
+}: CountdownProviderProps) {
   const { startNewChallenge } = useContext(ChallengesContext);
 
-  const [time, setTime] = useState(0.05 * 60);
+  const [time, setTime] = useState((userTime || 25) * 60);
   const [isActive, setIsActive] = useState(false);
   const [hasFinished, setHasFinished] = useState(false);
 
@@ -57,6 +63,18 @@ export function CountdownProvider({ children }: CountdownProviderProps) {
     }
   }, [isActive, time]);
 
+  function handleChange({
+    key,
+    target,
+  }: React.KeyboardEvent<HTMLInputElement>) {
+    if (key === "Enter") {
+      setTime(target.value * 60);
+    }
+  }
+  useEffect(() => {
+    Cookies.set("time", time);
+  }, [time]);
+
   return (
     <CountdownContext.Provider
       value={{
@@ -68,6 +86,7 @@ export function CountdownProvider({ children }: CountdownProviderProps) {
         resetCountdown,
       }}
     >
+      <input className={styles.input} type="number" onKeyDown={handleChange} />
       {children}
     </CountdownContext.Provider>
   );

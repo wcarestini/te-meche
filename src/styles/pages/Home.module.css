@@ -16,3 +16,13 @@
   gap: 6.25rem;
   align-content: center;
 }
+
+.input {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 5rem;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  border: 0;
+}
