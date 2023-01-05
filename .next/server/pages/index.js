@@ -1,190 +1,780 @@
-/*
- * ATTENTION: An "eval-source-map" devtool has been used.
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
 (() => {
 var exports = {};
-exports.id = "pages/index";
-exports.ids = ["pages/index"];
+exports.id = 405;
+exports.ids = [405];
 exports.modules = {
 
-/***/ "./src/styles/components/ChallengeBox.module.css":
-/*!*******************************************************!*\
-  !*** ./src/styles/components/ChallengeBox.module.css ***!
-  \*******************************************************/
+/***/ 387:
 /***/ ((module) => {
 
-eval("// Exports\nmodule.exports = {\n\t\"challengeBoxContainer\": \"ChallengeBox_challengeBoxContainer___gnnr\",\n\t\"challengeNotActive\": \"ChallengeBox_challengeNotActive__CBcqF\",\n\t\"challengeActive\": \"ChallengeBox_challengeActive___i_Ew\",\n\t\"challengeFailedButton\": \"ChallengeBox_challengeFailedButton__T_kEK\",\n\t\"challengeSucceededButton\": \"ChallengeBox_challengeSucceededButton__wlRYM\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvc3R5bGVzL2NvbXBvbmVudHMvQ2hhbGxlbmdlQm94Lm1vZHVsZS5jc3MuanMiLCJtYXBwaW5ncyI6IkFBQUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsInNvdXJjZXMiOlsid2VicGFjazovL3RlLW1lY2hlLy4vc3JjL3N0eWxlcy9jb21wb25lbnRzL0NoYWxsZW5nZUJveC5tb2R1bGUuY3NzP2YxYTYiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gRXhwb3J0c1xubW9kdWxlLmV4cG9ydHMgPSB7XG5cdFwiY2hhbGxlbmdlQm94Q29udGFpbmVyXCI6IFwiQ2hhbGxlbmdlQm94X2NoYWxsZW5nZUJveENvbnRhaW5lcl9fX2dubnJcIixcblx0XCJjaGFsbGVuZ2VOb3RBY3RpdmVcIjogXCJDaGFsbGVuZ2VCb3hfY2hhbGxlbmdlTm90QWN0aXZlX19DQmNxRlwiLFxuXHRcImNoYWxsZW5nZUFjdGl2ZVwiOiBcIkNoYWxsZW5nZUJveF9jaGFsbGVuZ2VBY3RpdmVfX19pX0V3XCIsXG5cdFwiY2hhbGxlbmdlRmFpbGVkQnV0dG9uXCI6IFwiQ2hhbGxlbmdlQm94X2NoYWxsZW5nZUZhaWxlZEJ1dHRvbl9fVF9rRUtcIixcblx0XCJjaGFsbGVuZ2VTdWNjZWVkZWRCdXR0b25cIjogXCJDaGFsbGVuZ2VCb3hfY2hhbGxlbmdlU3VjY2VlZGVkQnV0dG9uX193bFJZTVwiXG59O1xuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/styles/components/ChallengeBox.module.css\n");
+// Exports
+module.exports = {
+	"challengeBoxContainer": "ChallengeBox_challengeBoxContainer___gnnr",
+	"challengeNotActive": "ChallengeBox_challengeNotActive__CBcqF",
+	"challengeActive": "ChallengeBox_challengeActive___i_Ew",
+	"challengeFailedButton": "ChallengeBox_challengeFailedButton__T_kEK",
+	"challengeSucceededButton": "ChallengeBox_challengeSucceededButton__wlRYM"
+};
+
 
 /***/ }),
 
-/***/ "./src/styles/components/CompletedChallenges.module.css":
-/*!**************************************************************!*\
-  !*** ./src/styles/components/CompletedChallenges.module.css ***!
-  \**************************************************************/
+/***/ 118:
 /***/ ((module) => {
 
-eval("// Exports\nmodule.exports = {\n\t\"completedChallengesContainer\": \"CompletedChallenges_completedChallengesContainer__WQf24\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvc3R5bGVzL2NvbXBvbmVudHMvQ29tcGxldGVkQ2hhbGxlbmdlcy5tb2R1bGUuY3NzLmpzIiwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vdGUtbWVjaGUvLi9zcmMvc3R5bGVzL2NvbXBvbmVudHMvQ29tcGxldGVkQ2hhbGxlbmdlcy5tb2R1bGUuY3NzP2MxMGMiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gRXhwb3J0c1xubW9kdWxlLmV4cG9ydHMgPSB7XG5cdFwiY29tcGxldGVkQ2hhbGxlbmdlc0NvbnRhaW5lclwiOiBcIkNvbXBsZXRlZENoYWxsZW5nZXNfY29tcGxldGVkQ2hhbGxlbmdlc0NvbnRhaW5lcl9fV1FmMjRcIlxufTtcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/styles/components/CompletedChallenges.module.css\n");
+// Exports
+module.exports = {
+	"completedChallengesContainer": "CompletedChallenges_completedChallengesContainer__WQf24"
+};
+
 
 /***/ }),
 
-/***/ "./src/styles/components/Countdown.module.css":
-/*!****************************************************!*\
-  !*** ./src/styles/components/Countdown.module.css ***!
-  \****************************************************/
+/***/ 477:
 /***/ ((module) => {
 
-eval("// Exports\nmodule.exports = {\n\t\"countdownContainer\": \"Countdown_countdownContainer__2AmIm\",\n\t\"countdownButton\": \"Countdown_countdownButton__Dv6Na\",\n\t\"countdownButtonDisabled\": \"Countdown_countdownButtonDisabled__8MJJg\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvc3R5bGVzL2NvbXBvbmVudHMvQ291bnRkb3duLm1vZHVsZS5jc3MuanMiLCJtYXBwaW5ncyI6IkFBQUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vdGUtbWVjaGUvLi9zcmMvc3R5bGVzL2NvbXBvbmVudHMvQ291bnRkb3duLm1vZHVsZS5jc3M/ODg2ZiJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBFeHBvcnRzXG5tb2R1bGUuZXhwb3J0cyA9IHtcblx0XCJjb3VudGRvd25Db250YWluZXJcIjogXCJDb3VudGRvd25fY291bnRkb3duQ29udGFpbmVyX18yQW1JbVwiLFxuXHRcImNvdW50ZG93bkJ1dHRvblwiOiBcIkNvdW50ZG93bl9jb3VudGRvd25CdXR0b25fX0R2Nk5hXCIsXG5cdFwiY291bnRkb3duQnV0dG9uRGlzYWJsZWRcIjogXCJDb3VudGRvd25fY291bnRkb3duQnV0dG9uRGlzYWJsZWRfXzhNSkpnXCJcbn07XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/styles/components/Countdown.module.css\n");
+// Exports
+module.exports = {
+	"countdownContainer": "Countdown_countdownContainer__2AmIm",
+	"countdownButton": "Countdown_countdownButton__Dv6Na",
+	"countdownButtonDisabled": "Countdown_countdownButtonDisabled__8MJJg"
+};
+
 
 /***/ }),
 
-/***/ "./src/styles/components/ExperienceBar.module.css":
-/*!********************************************************!*\
-  !*** ./src/styles/components/ExperienceBar.module.css ***!
-  \********************************************************/
+/***/ 452:
 /***/ ((module) => {
 
-eval("// Exports\nmodule.exports = {\n\t\"experienceBar\": \"ExperienceBar_experienceBar__bdk1M\",\n\t\"currentExperience\": \"ExperienceBar_currentExperience__gSLAF\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvc3R5bGVzL2NvbXBvbmVudHMvRXhwZXJpZW5jZUJhci5tb2R1bGUuY3NzLmpzIiwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly90ZS1tZWNoZS8uL3NyYy9zdHlsZXMvY29tcG9uZW50cy9FeHBlcmllbmNlQmFyLm1vZHVsZS5jc3M/NDM0MiJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBFeHBvcnRzXG5tb2R1bGUuZXhwb3J0cyA9IHtcblx0XCJleHBlcmllbmNlQmFyXCI6IFwiRXhwZXJpZW5jZUJhcl9leHBlcmllbmNlQmFyX19iZGsxTVwiLFxuXHRcImN1cnJlbnRFeHBlcmllbmNlXCI6IFwiRXhwZXJpZW5jZUJhcl9jdXJyZW50RXhwZXJpZW5jZV9fZ1NMQUZcIlxufTtcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/styles/components/ExperienceBar.module.css\n");
+// Exports
+module.exports = {
+	"experienceBar": "ExperienceBar_experienceBar__bdk1M",
+	"currentExperience": "ExperienceBar_currentExperience__gSLAF"
+};
+
 
 /***/ }),
 
-/***/ "./src/styles/components/LevelUpModal.module.css":
-/*!*******************************************************!*\
-  !*** ./src/styles/components/LevelUpModal.module.css ***!
-  \*******************************************************/
+/***/ 186:
 /***/ ((module) => {
 
-eval("// Exports\nmodule.exports = {\n\t\"overlay\": \"LevelUpModal_overlay___2WqV\",\n\t\"container\": \"LevelUpModal_container__IrQN2\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvc3R5bGVzL2NvbXBvbmVudHMvTGV2ZWxVcE1vZGFsLm1vZHVsZS5jc3MuanMiLCJtYXBwaW5ncyI6IkFBQUE7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsInNvdXJjZXMiOlsid2VicGFjazovL3RlLW1lY2hlLy4vc3JjL3N0eWxlcy9jb21wb25lbnRzL0xldmVsVXBNb2RhbC5tb2R1bGUuY3NzPzhkODYiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gRXhwb3J0c1xubW9kdWxlLmV4cG9ydHMgPSB7XG5cdFwib3ZlcmxheVwiOiBcIkxldmVsVXBNb2RhbF9vdmVybGF5X19fMldxVlwiLFxuXHRcImNvbnRhaW5lclwiOiBcIkxldmVsVXBNb2RhbF9jb250YWluZXJfX0lyUU4yXCJcbn07XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/styles/components/LevelUpModal.module.css\n");
+// Exports
+module.exports = {
+	"overlay": "LevelUpModal_overlay___2WqV",
+	"container": "LevelUpModal_container__IrQN2"
+};
+
 
 /***/ }),
 
-/***/ "./src/styles/components/Profile.module.css":
-/*!**************************************************!*\
-  !*** ./src/styles/components/Profile.module.css ***!
-  \**************************************************/
+/***/ 595:
 /***/ ((module) => {
 
-eval("// Exports\nmodule.exports = {\n\t\"profileContainer\": \"Profile_profileContainer__pSJlF\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvc3R5bGVzL2NvbXBvbmVudHMvUHJvZmlsZS5tb2R1bGUuY3NzLmpzIiwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vdGUtbWVjaGUvLi9zcmMvc3R5bGVzL2NvbXBvbmVudHMvUHJvZmlsZS5tb2R1bGUuY3NzPzMzYWQiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gRXhwb3J0c1xubW9kdWxlLmV4cG9ydHMgPSB7XG5cdFwicHJvZmlsZUNvbnRhaW5lclwiOiBcIlByb2ZpbGVfcHJvZmlsZUNvbnRhaW5lcl9fcFNKbEZcIlxufTtcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/styles/components/Profile.module.css\n");
+// Exports
+module.exports = {
+	"profileContainer": "Profile_profileContainer__pSJlF"
+};
+
 
 /***/ }),
 
-/***/ "./src/styles/pages/Home.module.css":
-/*!******************************************!*\
-  !*** ./src/styles/pages/Home.module.css ***!
-  \******************************************/
+/***/ 712:
 /***/ ((module) => {
 
-eval("// Exports\nmodule.exports = {\n\t\"container\": \"Home_container__vpUDj\",\n\t\"input\": \"Home_input__Y_NRT\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvc3R5bGVzL3BhZ2VzL0hvbWUubW9kdWxlLmNzcy5qcyIsIm1hcHBpbmdzIjoiQUFBQTtBQUNBO0FBQ0E7QUFDQTtBQUNBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vdGUtbWVjaGUvLi9zcmMvc3R5bGVzL3BhZ2VzL0hvbWUubW9kdWxlLmNzcz82Nzg4Il0sInNvdXJjZXNDb250ZW50IjpbIi8vIEV4cG9ydHNcbm1vZHVsZS5leHBvcnRzID0ge1xuXHRcImNvbnRhaW5lclwiOiBcIkhvbWVfY29udGFpbmVyX192cFVEalwiLFxuXHRcImlucHV0XCI6IFwiSG9tZV9pbnB1dF9fWV9OUlRcIlxufTtcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/styles/pages/Home.module.css\n");
+// Exports
+module.exports = {
+	"container": "Home_container__vpUDj",
+	"input": "Home_input__Y_NRT"
+};
+
 
 /***/ }),
 
-/***/ "./src/components/ChallengeBox.tsx":
-/*!*****************************************!*\
-  !*** ./src/components/ChallengeBox.tsx ***!
-  \*****************************************/
+/***/ 690:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"ChallengeBox\": () => (/* binding */ ChallengeBox)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles_components_ChallengeBox_module_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/components/ChallengeBox.module.css */ \"./src/styles/components/ChallengeBox.module.css\");\n/* harmony import */ var _styles_components_ChallengeBox_module_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_components_ChallengeBox_module_css__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../contexts/ChallengesContext */ \"./src/contexts/ChallengesContext.tsx\");\n/* harmony import */ var _contexts_CountdownContext__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../contexts/CountdownContext */ \"./src/contexts/CountdownContext.tsx\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__, _contexts_CountdownContext__WEBPACK_IMPORTED_MODULE_3__]);\n([_contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__, _contexts_CountdownContext__WEBPACK_IMPORTED_MODULE_3__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);\n\n\n\n\n\nfunction ChallengeBox() {\n    const { activeChallenge , resetChallenge , completeChallenge  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useContext)(_contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__.ChallengesContext);\n    const { resetCountdown  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useContext)(_contexts_CountdownContext__WEBPACK_IMPORTED_MODULE_3__.CountdownContext);\n    function handleChallengeSucceeded() {\n        completeChallenge();\n        resetCountdown();\n    }\n    function handleChallengeFailed() {\n        resetChallenge();\n        resetCountdown();\n    }\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: (_styles_components_ChallengeBox_module_css__WEBPACK_IMPORTED_MODULE_4___default().challengeBoxContainer),\n        children: activeChallenge ? /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            className: (_styles_components_ChallengeBox_module_css__WEBPACK_IMPORTED_MODULE_4___default().challengeActive),\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"header\", {\n                    children: [\n                        \"Ganhe \",\n                        activeChallenge.amount,\n                        \" xp\"\n                    ]\n                }, void 0, true, {\n                    fileName: \"/home/carestiniw/Workspace/te-meche/src/components/ChallengeBox.tsx\",\n                    lineNumber: 27,\n                    columnNumber: 11\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"main\", {\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                            src: `icons/${activeChallenge.type}.svg`\n                        }, void 0, false, {\n                            fileName: \"/home/carestiniw/Workspace/te-meche/src/components/ChallengeBox.tsx\",\n                            lineNumber: 30,\n                            columnNumber: 13\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"strong\", {\n                            children: \"Novo desafio \"\n                        }, void 0, false, {\n                            fileName: \"/home/carestiniw/Workspace/te-meche/src/components/ChallengeBox.tsx\",\n                            lineNumber: 31,\n                            columnNumber: 13\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                            children: activeChallenge.description\n                        }, void 0, false, {\n                            fileName: \"/home/carestiniw/Workspace/te-meche/src/components/ChallengeBox.tsx\",\n                            lineNumber: 32,\n                            columnNumber: 13\n                        }, this)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/home/carestiniw/Workspace/te-meche/src/components/ChallengeBox.tsx\",\n                    lineNumber: 29,\n                    columnNumber: 11\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"footer\", {\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                            type: \"button\",\n                            className: (_styles_components_ChallengeBox_module_css__WEBPACK_IMPORTED_MODULE_4___default().challengeFailedButton),\n                            onClick: handleChallengeFailed,\n                            children: \"Falhei\"\n                        }, void 0, false, {\n                            fileName: \"/home/carestiniw/Workspace/te-meche/src/components/ChallengeBox.tsx\",\n                            lineNumber: 36,\n                            columnNumber: 13\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                            type: \"button\",\n                            className: (_styles_components_ChallengeBox_module_css__WEBPACK_IMPORTED_MODULE_4___default().challengeSucceededButton),\n                            onClick: handleChallengeSucceeded,\n                            children: \"Completei\"\n                        }, void 0, false, {\n                            fileName: \"/home/carestiniw/Workspace/te-meche/src/components/ChallengeBox.tsx\",\n                            lineNumber: 43,\n                            columnNumber: 13\n                        }, this)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/home/carestiniw/Workspace/te-meche/src/components/ChallengeBox.tsx\",\n                    lineNumber: 35,\n                    columnNumber: 11\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"/home/carestiniw/Workspace/te-meche/src/components/ChallengeBox.tsx\",\n            lineNumber: 26,\n            columnNumber: 9\n        }, this) : /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            className: (_styles_components_ChallengeBox_module_css__WEBPACK_IMPORTED_MODULE_4___default().challengeNotActive),\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"strong\", {\n                    children: \"Finalize um ciclo para receber um desafio\"\n                }, void 0, false, {\n                    fileName: \"/home/carestiniw/Workspace/te-meche/src/components/ChallengeBox.tsx\",\n                    lineNumber: 54,\n                    columnNumber: 11\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                            src: \"icons/level-up.svg\",\n                            alt: \"Level up\"\n                        }, void 0, false, {\n                            fileName: \"/home/carestiniw/Workspace/te-meche/src/components/ChallengeBox.tsx\",\n                            lineNumber: 56,\n                            columnNumber: 13\n                        }, this),\n                        \"Avance de level, completando desafios.\"\n                    ]\n                }, void 0, true, {\n                    fileName: \"/home/carestiniw/Workspace/te-meche/src/components/ChallengeBox.tsx\",\n                    lineNumber: 55,\n                    columnNumber: 11\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"/home/carestiniw/Workspace/te-meche/src/components/ChallengeBox.tsx\",\n            lineNumber: 53,\n            columnNumber: 9\n        }, this)\n    }, void 0, false, {\n        fileName: \"/home/carestiniw/Workspace/te-meche/src/components/ChallengeBox.tsx\",\n        lineNumber: 24,\n        columnNumber: 5\n    }, this);\n}\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9DaGFsbGVuZ2VCb3gudHN4LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7OztBQUFBO0FBQWtFO0FBRS9CO0FBRStCO0FBQ0Y7QUFFekQsU0FBU0ksZUFBZTtJQUM3QixNQUFNLEVBQUVDLGdCQUFlLEVBQUVDLGVBQWMsRUFBRUMsa0JBQWlCLEVBQUUsR0FDMUROLGlEQUFVQSxDQUFDQywwRUFBaUJBO0lBQzlCLE1BQU0sRUFBRU0sZUFBYyxFQUFFLEdBQUdQLGlEQUFVQSxDQUFDRSx3RUFBZ0JBO0lBRXRELFNBQVNNLDJCQUEyQjtRQUNsQ0Y7UUFDQUM7SUFDRjtJQUVBLFNBQVNFLHdCQUF3QjtRQUMvQko7UUFDQUU7SUFDRjtJQUVBLHFCQUNFLDhEQUFDRztRQUFJQyxXQUFXWix5R0FBNEI7a0JBQ3pDSyxnQ0FDQyw4REFBQ007WUFBSUMsV0FBV1osbUdBQXNCOzs4QkFDcEMsOERBQUNlOzt3QkFBTzt3QkFBT1YsZ0JBQWdCVyxNQUFNO3dCQUFDOzs7Ozs7OzhCQUV0Qyw4REFBQ0M7O3NDQUNDLDhEQUFDQzs0QkFBSUMsS0FBSyxDQUFDLE1BQU0sRUFBRWQsZ0JBQWdCZSxJQUFJLENBQUMsSUFBSSxDQUFDOzs7Ozs7c0NBQzdDLDhEQUFDQztzQ0FBTzs7Ozs7O3NDQUNSLDhEQUFDQztzQ0FBR2pCLGdCQUFnQmtCLFdBQVc7Ozs7Ozs7Ozs7Ozs4QkFHakMsOERBQUNDOztzQ0FDQyw4REFBQ0M7NEJBQ0NMLE1BQUs7NEJBQ0xSLFdBQVdaLHlHQUE0Qjs0QkFDdkMyQixTQUFTakI7c0NBQ1Y7Ozs7OztzQ0FHRCw4REFBQ2U7NEJBQ0NMLE1BQUs7NEJBQ0xSLFdBQVdaLDRHQUErQjs0QkFDMUMyQixTQUFTbEI7c0NBQ1Y7Ozs7Ozs7Ozs7Ozs7Ozs7O2lDQU1MLDhEQUFDRTtZQUFJQyxXQUFXWixzR0FBeUI7OzhCQUN2Qyw4REFBQ3FCOzhCQUFPOzs7Ozs7OEJBQ1IsOERBQUNDOztzQ0FDQyw4REFBQ0o7NEJBQUlDLEtBQUk7NEJBQXFCVyxLQUFJOzs7Ozs7d0JBQWE7Ozs7Ozs7Ozs7OztnQkFJcEQ7Ozs7OztBQUdQLENBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly90ZS1tZWNoZS8uL3NyYy9jb21wb25lbnRzL0NoYWxsZW5nZUJveC50c3g/YzhiMiJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgc3R5bGVzIGZyb20gXCIuLi9zdHlsZXMvY29tcG9uZW50cy9DaGFsbGVuZ2VCb3gubW9kdWxlLmNzc1wiO1xuXG5pbXBvcnQgeyB1c2VDb250ZXh0IH0gZnJvbSBcInJlYWN0XCI7XG5cbmltcG9ydCB7IENoYWxsZW5nZXNDb250ZXh0IH0gZnJvbSBcIi4uL2NvbnRleHRzL0NoYWxsZW5nZXNDb250ZXh0XCI7XG5pbXBvcnQgeyBDb3VudGRvd25Db250ZXh0IH0gZnJvbSBcIi4uL2NvbnRleHRzL0NvdW50ZG93bkNvbnRleHRcIjtcblxuZXhwb3J0IGZ1bmN0aW9uIENoYWxsZW5nZUJveCgpIHtcbiAgY29uc3QgeyBhY3RpdmVDaGFsbGVuZ2UsIHJlc2V0Q2hhbGxlbmdlLCBjb21wbGV0ZUNoYWxsZW5nZSB9ID1cbiAgICB1c2VDb250ZXh0KENoYWxsZW5nZXNDb250ZXh0KTtcbiAgY29uc3QgeyByZXNldENvdW50ZG93biB9ID0gdXNlQ29udGV4dChDb3VudGRvd25Db250ZXh0KTtcblxuICBmdW5jdGlvbiBoYW5kbGVDaGFsbGVuZ2VTdWNjZWVkZWQoKSB7XG4gICAgY29tcGxldGVDaGFsbGVuZ2UoKTtcbiAgICByZXNldENvdW50ZG93bigpO1xuICB9XG5cbiAgZnVuY3Rpb24gaGFuZGxlQ2hhbGxlbmdlRmFpbGVkKCkge1xuICAgIHJlc2V0Q2hhbGxlbmdlKCk7XG4gICAgcmVzZXRDb3VudGRvd24oKTtcbiAgfVxuXG4gIHJldHVybiAoXG4gICAgPGRpdiBjbGFzc05hbWU9e3N0eWxlcy5jaGFsbGVuZ2VCb3hDb250YWluZXJ9PlxuICAgICAge2FjdGl2ZUNoYWxsZW5nZSA/IChcbiAgICAgICAgPGRpdiBjbGFzc05hbWU9e3N0eWxlcy5jaGFsbGVuZ2VBY3RpdmV9PlxuICAgICAgICAgIDxoZWFkZXI+R2FuaGUge2FjdGl2ZUNoYWxsZW5nZS5hbW91bnR9IHhwPC9oZWFkZXI+XG5cbiAgICAgICAgICA8bWFpbj5cbiAgICAgICAgICAgIDxpbWcgc3JjPXtgaWNvbnMvJHthY3RpdmVDaGFsbGVuZ2UudHlwZX0uc3ZnYH0gLz5cbiAgICAgICAgICAgIDxzdHJvbmc+Tm92byBkZXNhZmlvIDwvc3Ryb25nPlxuICAgICAgICAgICAgPHA+e2FjdGl2ZUNoYWxsZW5nZS5kZXNjcmlwdGlvbn08L3A+XG4gICAgICAgICAgPC9tYWluPlxuXG4gICAgICAgICAgPGZvb3Rlcj5cbiAgICAgICAgICAgIDxidXR0b25cbiAgICAgICAgICAgICAgdHlwZT1cImJ1dHRvblwiXG4gICAgICAgICAgICAgIGNsYXNzTmFtZT17c3R5bGVzLmNoYWxsZW5nZUZhaWxlZEJ1dHRvbn1cbiAgICAgICAgICAgICAgb25DbGljaz17aGFuZGxlQ2hhbGxlbmdlRmFpbGVkfVxuICAgICAgICAgICAgPlxuICAgICAgICAgICAgICBGYWxoZWlcbiAgICAgICAgICAgIDwvYnV0dG9uPlxuICAgICAgICAgICAgPGJ1dHRvblxuICAgICAgICAgICAgICB0eXBlPVwiYnV0dG9uXCJcbiAgICAgICAgICAgICAgY2xhc3NOYW1lPXtzdHlsZXMuY2hhbGxlbmdlU3VjY2VlZGVkQnV0dG9ufVxuICAgICAgICAgICAgICBvbkNsaWNrPXtoYW5kbGVDaGFsbGVuZ2VTdWNjZWVkZWR9XG4gICAgICAgICAgICA+XG4gICAgICAgICAgICAgIENvbXBsZXRlaVxuICAgICAgICAgICAgPC9idXR0b24+XG4gICAgICAgICAgPC9mb290ZXI+XG4gICAgICAgIDwvZGl2PlxuICAgICAgKSA6IChcbiAgICAgICAgPGRpdiBjbGFzc05hbWU9e3N0eWxlcy5jaGFsbGVuZ2VOb3RBY3RpdmV9PlxuICAgICAgICAgIDxzdHJvbmc+RmluYWxpemUgdW0gY2ljbG8gcGFyYSByZWNlYmVyIHVtIGRlc2FmaW88L3N0cm9uZz5cbiAgICAgICAgICA8cD5cbiAgICAgICAgICAgIDxpbWcgc3JjPVwiaWNvbnMvbGV2ZWwtdXAuc3ZnXCIgYWx0PVwiTGV2ZWwgdXBcIiAvPlxuICAgICAgICAgICAgQXZhbmNlIGRlIGxldmVsLCBjb21wbGV0YW5kbyBkZXNhZmlvcy5cbiAgICAgICAgICA8L3A+XG4gICAgICAgIDwvZGl2PlxuICAgICAgKX1cbiAgICA8L2Rpdj5cbiAgKTtcbn1cbiJdLCJuYW1lcyI6WyJzdHlsZXMiLCJ1c2VDb250ZXh0IiwiQ2hhbGxlbmdlc0NvbnRleHQiLCJDb3VudGRvd25Db250ZXh0IiwiQ2hhbGxlbmdlQm94IiwiYWN0aXZlQ2hhbGxlbmdlIiwicmVzZXRDaGFsbGVuZ2UiLCJjb21wbGV0ZUNoYWxsZW5nZSIsInJlc2V0Q291bnRkb3duIiwiaGFuZGxlQ2hhbGxlbmdlU3VjY2VlZGVkIiwiaGFuZGxlQ2hhbGxlbmdlRmFpbGVkIiwiZGl2IiwiY2xhc3NOYW1lIiwiY2hhbGxlbmdlQm94Q29udGFpbmVyIiwiY2hhbGxlbmdlQWN0aXZlIiwiaGVhZGVyIiwiYW1vdW50IiwibWFpbiIsImltZyIsInNyYyIsInR5cGUiLCJzdHJvbmciLCJwIiwiZGVzY3JpcHRpb24iLCJmb290ZXIiLCJidXR0b24iLCJjaGFsbGVuZ2VGYWlsZWRCdXR0b24iLCJvbkNsaWNrIiwiY2hhbGxlbmdlU3VjY2VlZGVkQnV0dG9uIiwiY2hhbGxlbmdlTm90QWN0aXZlIiwiYWx0Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/components/ChallengeBox.tsx\n");
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "u": () => (/* binding */ ChallengeBox)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_components_ChallengeBox_module_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(387);
+/* harmony import */ var _styles_components_ChallengeBox_module_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_components_ChallengeBox_module_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(777);
+/* harmony import */ var _contexts_CountdownContext__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(914);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__, _contexts_CountdownContext__WEBPACK_IMPORTED_MODULE_3__]);
+([_contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__, _contexts_CountdownContext__WEBPACK_IMPORTED_MODULE_3__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
+
+
+
+
+
+function ChallengeBox() {
+    const { activeChallenge , resetChallenge , completeChallenge  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useContext)(_contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__/* .ChallengesContext */ .w);
+    const { resetCountdown  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useContext)(_contexts_CountdownContext__WEBPACK_IMPORTED_MODULE_3__/* .CountdownContext */ .u);
+    function handleChallengeSucceeded() {
+        completeChallenge();
+        resetCountdown();
+    }
+    function handleChallengeFailed() {
+        resetChallenge();
+        resetCountdown();
+    }
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+        className: (_styles_components_ChallengeBox_module_css__WEBPACK_IMPORTED_MODULE_4___default().challengeBoxContainer),
+        children: activeChallenge ? /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+            className: (_styles_components_ChallengeBox_module_css__WEBPACK_IMPORTED_MODULE_4___default().challengeActive),
+            children: [
+                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("header", {
+                    children: [
+                        "Ganhe ",
+                        activeChallenge.amount,
+                        " xp"
+                    ]
+                }),
+                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("main", {
+                    children: [
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                            src: `icons/${activeChallenge.type}.svg`
+                        }),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("strong", {
+                            children: "Novo desafio "
+                        }),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                            children: activeChallenge.description
+                        })
+                    ]
+                }),
+                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("footer", {
+                    children: [
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
+                            type: "button",
+                            className: (_styles_components_ChallengeBox_module_css__WEBPACK_IMPORTED_MODULE_4___default().challengeFailedButton),
+                            onClick: handleChallengeFailed,
+                            children: "Falhei"
+                        }),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
+                            type: "button",
+                            className: (_styles_components_ChallengeBox_module_css__WEBPACK_IMPORTED_MODULE_4___default().challengeSucceededButton),
+                            onClick: handleChallengeSucceeded,
+                            children: "Completei"
+                        })
+                    ]
+                })
+            ]
+        }) : /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+            className: (_styles_components_ChallengeBox_module_css__WEBPACK_IMPORTED_MODULE_4___default().challengeNotActive),
+            children: [
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("strong", {
+                    children: "Finalize um ciclo para receber um desafio"
+                }),
+                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
+                    children: [
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                            src: "icons/level-up.svg",
+                            alt: "Level up"
+                        }),
+                        "Avance de level, completando desafios."
+                    ]
+                })
+            ]
+        })
+    });
+}
+
+__webpack_async_result__();
+} catch(e) { __webpack_async_result__(e); } });
 
 /***/ }),
 
-/***/ "./src/components/CompletedChallenges.tsx":
-/*!************************************************!*\
-  !*** ./src/components/CompletedChallenges.tsx ***!
-  \************************************************/
+/***/ 735:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"CompletedChallenges\": () => (/* binding */ CompletedChallenges)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles_components_CompletedChallenges_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/components/CompletedChallenges.module.css */ \"./src/styles/components/CompletedChallenges.module.css\");\n/* harmony import */ var _styles_components_CompletedChallenges_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_components_CompletedChallenges_module_css__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../contexts/ChallengesContext */ \"./src/contexts/ChallengesContext.tsx\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__]);\n_contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\n\n\nfunction CompletedChallenges() {\n    const { challengesCompleted  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useContext)(_contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__.ChallengesContext);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: (_styles_components_CompletedChallenges_module_css__WEBPACK_IMPORTED_MODULE_3___default().completedChallengesContainer),\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                children: \"Desafios completos\"\n            }, void 0, false, {\n                fileName: \"/home/carestiniw/Workspace/te-meche/src/components/CompletedChallenges.tsx\",\n                lineNumber: 11,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                children: challengesCompleted\n            }, void 0, false, {\n                fileName: \"/home/carestiniw/Workspace/te-meche/src/components/CompletedChallenges.tsx\",\n                lineNumber: 12,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/home/carestiniw/Workspace/te-meche/src/components/CompletedChallenges.tsx\",\n        lineNumber: 10,\n        columnNumber: 5\n    }, this);\n}\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9Db21wbGV0ZWRDaGFsbGVuZ2VzLnRzeC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7OztBQUFBO0FBQXlFO0FBRXRDO0FBQytCO0FBRTNELFNBQVNHLHNCQUFzQjtJQUNwQyxNQUFNLEVBQUVDLG9CQUFtQixFQUFFLEdBQUdILGlEQUFVQSxDQUFDQywwRUFBaUJBO0lBRTVELHFCQUNFLDhEQUFDRztRQUFJQyxXQUFXTix1SEFBbUM7OzBCQUNqRCw4REFBQ1E7MEJBQUs7Ozs7OzswQkFDTiw4REFBQ0E7MEJBQU1KOzs7Ozs7Ozs7Ozs7QUFHYixDQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vdGUtbWVjaGUvLi9zcmMvY29tcG9uZW50cy9Db21wbGV0ZWRDaGFsbGVuZ2VzLnRzeD83NWIzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBzdHlsZXMgZnJvbSBcIi4uL3N0eWxlcy9jb21wb25lbnRzL0NvbXBsZXRlZENoYWxsZW5nZXMubW9kdWxlLmNzc1wiO1xuXG5pbXBvcnQgeyB1c2VDb250ZXh0IH0gZnJvbSBcInJlYWN0XCI7XG5pbXBvcnQgeyBDaGFsbGVuZ2VzQ29udGV4dCB9IGZyb20gXCIuLi9jb250ZXh0cy9DaGFsbGVuZ2VzQ29udGV4dFwiO1xuXG5leHBvcnQgZnVuY3Rpb24gQ29tcGxldGVkQ2hhbGxlbmdlcygpIHtcbiAgY29uc3QgeyBjaGFsbGVuZ2VzQ29tcGxldGVkIH0gPSB1c2VDb250ZXh0KENoYWxsZW5nZXNDb250ZXh0KTtcblxuICByZXR1cm4gKFxuICAgIDxkaXYgY2xhc3NOYW1lPXtzdHlsZXMuY29tcGxldGVkQ2hhbGxlbmdlc0NvbnRhaW5lcn0+XG4gICAgICA8c3Bhbj5EZXNhZmlvcyBjb21wbGV0b3M8L3NwYW4+XG4gICAgICA8c3Bhbj57Y2hhbGxlbmdlc0NvbXBsZXRlZH08L3NwYW4+XG4gICAgPC9kaXY+XG4gICk7XG59XG4iXSwibmFtZXMiOlsic3R5bGVzIiwidXNlQ29udGV4dCIsIkNoYWxsZW5nZXNDb250ZXh0IiwiQ29tcGxldGVkQ2hhbGxlbmdlcyIsImNoYWxsZW5nZXNDb21wbGV0ZWQiLCJkaXYiLCJjbGFzc05hbWUiLCJjb21wbGV0ZWRDaGFsbGVuZ2VzQ29udGFpbmVyIiwic3BhbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/components/CompletedChallenges.tsx\n");
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "h": () => (/* binding */ CompletedChallenges)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_components_CompletedChallenges_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(118);
+/* harmony import */ var _styles_components_CompletedChallenges_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_components_CompletedChallenges_module_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(777);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__]);
+_contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+
+
+
+
+function CompletedChallenges() {
+    const { challengesCompleted  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useContext)(_contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__/* .ChallengesContext */ .w);
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+        className: (_styles_components_CompletedChallenges_module_css__WEBPACK_IMPORTED_MODULE_3___default().completedChallengesContainer),
+        children: [
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                children: "Desafios completos"
+            }),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                children: challengesCompleted
+            })
+        ]
+    });
+}
+
+__webpack_async_result__();
+} catch(e) { __webpack_async_result__(e); } });
 
 /***/ }),
 
-/***/ "./src/components/Countdown.tsx":
-/*!**************************************!*\
-  !*** ./src/components/Countdown.tsx ***!
-  \**************************************/
+/***/ 608:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Countdown\": () => (/* binding */ Countdown)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _contexts_CountdownContext__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../contexts/CountdownContext */ \"./src/contexts/CountdownContext.tsx\");\n/* harmony import */ var _styles_components_Countdown_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/components/Countdown.module.css */ \"./src/styles/components/Countdown.module.css\");\n/* harmony import */ var _styles_components_Countdown_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_components_Countdown_module_css__WEBPACK_IMPORTED_MODULE_3__);\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_contexts_CountdownContext__WEBPACK_IMPORTED_MODULE_2__]);\n_contexts_CountdownContext__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\n\n\nfunction Countdown() {\n    const { minutes , seconds , hasFinished , isActive , resetCountdown , startCountdown  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useContext)(_contexts_CountdownContext__WEBPACK_IMPORTED_MODULE_2__.CountdownContext);\n    const [minuteLeft, minuteRight] = String(minutes).padStart(2, \"0\").split(\"\");\n    const [secondLeft, secondRight] = String(seconds).padStart(2, \"0\").split(\"\");\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: (_styles_components_Countdown_module_css__WEBPACK_IMPORTED_MODULE_3___default().countdownContainer),\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                children: minuteLeft\n                            }, void 0, false, {\n                                fileName: \"/home/carestiniw/Workspace/te-meche/src/components/Countdown.tsx\",\n                                lineNumber: 23,\n                                columnNumber: 11\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                children: minuteRight\n                            }, void 0, false, {\n                                fileName: \"/home/carestiniw/Workspace/te-meche/src/components/Countdown.tsx\",\n                                lineNumber: 24,\n                                columnNumber: 11\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/home/carestiniw/Workspace/te-meche/src/components/Countdown.tsx\",\n                        lineNumber: 22,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                        children: \":\"\n                    }, void 0, false, {\n                        fileName: \"/home/carestiniw/Workspace/te-meche/src/components/Countdown.tsx\",\n                        lineNumber: 26,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                children: secondLeft\n                            }, void 0, false, {\n                                fileName: \"/home/carestiniw/Workspace/te-meche/src/components/Countdown.tsx\",\n                                lineNumber: 28,\n                                columnNumber: 11\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                children: secondRight\n                            }, void 0, false, {\n                                fileName: \"/home/carestiniw/Workspace/te-meche/src/components/Countdown.tsx\",\n                                lineNumber: 29,\n                                columnNumber: 11\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/home/carestiniw/Workspace/te-meche/src/components/Countdown.tsx\",\n                        lineNumber: 27,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/home/carestiniw/Workspace/te-meche/src/components/Countdown.tsx\",\n                lineNumber: 21,\n                columnNumber: 7\n            }, this),\n            hasFinished ? /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                disabled: true,\n                className: (_styles_components_Countdown_module_css__WEBPACK_IMPORTED_MODULE_3___default().countdownButton),\n                children: \"Ciclo encerrado\"\n            }, void 0, false, {\n                fileName: \"/home/carestiniw/Workspace/te-meche/src/components/Countdown.tsx\",\n                lineNumber: 34,\n                columnNumber: 9\n            }, this) : /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n                children: isActive ? /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                    type: \"button\",\n                    className: `${(_styles_components_Countdown_module_css__WEBPACK_IMPORTED_MODULE_3___default().countdownButton)} ${(_styles_components_Countdown_module_css__WEBPACK_IMPORTED_MODULE_3___default().countdownButtonDisabled)}`,\n                    onClick: resetCountdown,\n                    children: \"Abandonar ciclo\"\n                }, void 0, false, {\n                    fileName: \"/home/carestiniw/Workspace/te-meche/src/components/Countdown.tsx\",\n                    lineNumber: 40,\n                    columnNumber: 13\n                }, this) : /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                    type: \"button\",\n                    className: (_styles_components_Countdown_module_css__WEBPACK_IMPORTED_MODULE_3___default().countdownButton),\n                    onClick: startCountdown,\n                    children: \"Iniciar um ciclo\"\n                }, void 0, false, {\n                    fileName: \"/home/carestiniw/Workspace/te-meche/src/components/Countdown.tsx\",\n                    lineNumber: 48,\n                    columnNumber: 13\n                }, this)\n            }, void 0, false)\n        ]\n    }, void 0, true, {\n        fileName: \"/home/carestiniw/Workspace/te-meche/src/components/Countdown.tsx\",\n        lineNumber: 20,\n        columnNumber: 5\n    }, this);\n}\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9Db3VudGRvd24udHN4LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7O0FBQUE7QUFBd0Q7QUFFUTtBQUNEO0FBRXhELFNBQVNHLFlBQVk7SUFDMUIsTUFBTSxFQUNKQyxRQUFPLEVBQ1BDLFFBQU8sRUFDUEMsWUFBVyxFQUNYQyxTQUFRLEVBQ1JDLGVBQWMsRUFDZEMsZUFBYyxFQUNmLEdBQUdULGlEQUFVQSxDQUFDQyx3RUFBZ0JBO0lBRS9CLE1BQU0sQ0FBQ1MsWUFBWUMsWUFBWSxHQUFHQyxPQUFPUixTQUFTUyxRQUFRLENBQUMsR0FBRyxLQUFLQyxLQUFLLENBQUM7SUFDekUsTUFBTSxDQUFDQyxZQUFZQyxZQUFZLEdBQUdKLE9BQU9QLFNBQVNRLFFBQVEsQ0FBQyxHQUFHLEtBQUtDLEtBQUssQ0FBQztJQUV6RSxxQkFDRSw4REFBQ0c7OzBCQUNDLDhEQUFDQTtnQkFBSUMsV0FBV2hCLG1HQUF5Qjs7a0NBQ3ZDLDhEQUFDZTs7MENBQ0MsOERBQUNHOzBDQUFNVjs7Ozs7OzBDQUNQLDhEQUFDVTswQ0FBTVQ7Ozs7Ozs7Ozs7OztrQ0FFVCw4REFBQ1M7a0NBQUs7Ozs7OztrQ0FDTiw4REFBQ0g7OzBDQUNDLDhEQUFDRzswQ0FBTUw7Ozs7OzswQ0FDUCw4REFBQ0s7MENBQU1KOzs7Ozs7Ozs7Ozs7Ozs7Ozs7WUFJVlYsNEJBQ0MsOERBQUNlO2dCQUFPQyxRQUFRO2dCQUFDSixXQUFXaEIsZ0dBQXNCOzBCQUFFOzs7OztxQ0FJcEQ7MEJBQ0dLLHlCQUNDLDhEQUFDYztvQkFDQ0csTUFBSztvQkFDTE4sV0FBVyxDQUFDLEVBQUVoQixnR0FBc0IsQ0FBQyxDQUFDLEVBQUVBLHdHQUE4QixDQUFDLENBQUM7b0JBQ3hFd0IsU0FBU2xCOzhCQUNWOzs7Ozt5Q0FJRCw4REFBQ2E7b0JBQ0NHLE1BQUs7b0JBQ0xOLFdBQVdoQixnR0FBc0I7b0JBQ2pDd0IsU0FBU2pCOzhCQUNWOzs7Ozt3QkFHRjs2QkFFSjs7Ozs7OztBQUdQLENBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly90ZS1tZWNoZS8uL3NyYy9jb21wb25lbnRzL0NvdW50ZG93bi50c3g/NTUxZiJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyB1c2VDb250ZXh0LCB1c2VFZmZlY3QsIHVzZVN0YXRlIH0gZnJvbSBcInJlYWN0XCI7XG5pbXBvcnQgeyBDaGFsbGVuZ2VzQ29udGV4dCB9IGZyb20gXCIuLi9jb250ZXh0cy9DaGFsbGVuZ2VzQ29udGV4dFwiO1xuaW1wb3J0IHsgQ291bnRkb3duQ29udGV4dCB9IGZyb20gXCIuLi9jb250ZXh0cy9Db3VudGRvd25Db250ZXh0XCI7XG5pbXBvcnQgc3R5bGVzIGZyb20gXCIuLi9zdHlsZXMvY29tcG9uZW50cy9Db3VudGRvd24ubW9kdWxlLmNzc1wiO1xuXG5leHBvcnQgZnVuY3Rpb24gQ291bnRkb3duKCkge1xuICBjb25zdCB7XG4gICAgbWludXRlcyxcbiAgICBzZWNvbmRzLFxuICAgIGhhc0ZpbmlzaGVkLFxuICAgIGlzQWN0aXZlLFxuICAgIHJlc2V0Q291bnRkb3duLFxuICAgIHN0YXJ0Q291bnRkb3duLFxuICB9ID0gdXNlQ29udGV4dChDb3VudGRvd25Db250ZXh0KTtcblxuICBjb25zdCBbbWludXRlTGVmdCwgbWludXRlUmlnaHRdID0gU3RyaW5nKG1pbnV0ZXMpLnBhZFN0YXJ0KDIsIFwiMFwiKS5zcGxpdChcIlwiKTtcbiAgY29uc3QgW3NlY29uZExlZnQsIHNlY29uZFJpZ2h0XSA9IFN0cmluZyhzZWNvbmRzKS5wYWRTdGFydCgyLCBcIjBcIikuc3BsaXQoXCJcIik7XG5cbiAgcmV0dXJuIChcbiAgICA8ZGl2PlxuICAgICAgPGRpdiBjbGFzc05hbWU9e3N0eWxlcy5jb3VudGRvd25Db250YWluZXJ9PlxuICAgICAgICA8ZGl2PlxuICAgICAgICAgIDxzcGFuPnttaW51dGVMZWZ0fTwvc3Bhbj5cbiAgICAgICAgICA8c3Bhbj57bWludXRlUmlnaHR9PC9zcGFuPlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPHNwYW4+Ojwvc3Bhbj5cbiAgICAgICAgPGRpdj5cbiAgICAgICAgICA8c3Bhbj57c2Vjb25kTGVmdH08L3NwYW4+XG4gICAgICAgICAgPHNwYW4+e3NlY29uZFJpZ2h0fTwvc3Bhbj5cbiAgICAgICAgPC9kaXY+XG4gICAgICA8L2Rpdj5cblxuICAgICAge2hhc0ZpbmlzaGVkID8gKFxuICAgICAgICA8YnV0dG9uIGRpc2FibGVkIGNsYXNzTmFtZT17c3R5bGVzLmNvdW50ZG93bkJ1dHRvbn0+XG4gICAgICAgICAgQ2ljbG8gZW5jZXJyYWRvXG4gICAgICAgIDwvYnV0dG9uPlxuICAgICAgKSA6IChcbiAgICAgICAgPD5cbiAgICAgICAgICB7aXNBY3RpdmUgPyAoXG4gICAgICAgICAgICA8YnV0dG9uXG4gICAgICAgICAgICAgIHR5cGU9XCJidXR0b25cIlxuICAgICAgICAgICAgICBjbGFzc05hbWU9e2Ake3N0eWxlcy5jb3VudGRvd25CdXR0b259ICR7c3R5bGVzLmNvdW50ZG93bkJ1dHRvbkRpc2FibGVkfWB9XG4gICAgICAgICAgICAgIG9uQ2xpY2s9e3Jlc2V0Q291bnRkb3dufVxuICAgICAgICAgICAgPlxuICAgICAgICAgICAgICBBYmFuZG9uYXIgY2ljbG9cbiAgICAgICAgICAgIDwvYnV0dG9uPlxuICAgICAgICAgICkgOiAoXG4gICAgICAgICAgICA8YnV0dG9uXG4gICAgICAgICAgICAgIHR5cGU9XCJidXR0b25cIlxuICAgICAgICAgICAgICBjbGFzc05hbWU9e3N0eWxlcy5jb3VudGRvd25CdXR0b259XG4gICAgICAgICAgICAgIG9uQ2xpY2s9e3N0YXJ0Q291bnRkb3dufVxuICAgICAgICAgICAgPlxuICAgICAgICAgICAgICBJbmljaWFyIHVtIGNpY2xvXG4gICAgICAgICAgICA8L2J1dHRvbj5cbiAgICAgICAgICApfVxuICAgICAgICA8Lz5cbiAgICAgICl9XG4gICAgPC9kaXY+XG4gICk7XG59XG4iXSwibmFtZXMiOlsidXNlQ29udGV4dCIsIkNvdW50ZG93bkNvbnRleHQiLCJzdHlsZXMiLCJDb3VudGRvd24iLCJtaW51dGVzIiwic2Vjb25kcyIsImhhc0ZpbmlzaGVkIiwiaXNBY3RpdmUiLCJyZXNldENvdW50ZG93biIsInN0YXJ0Q291bnRkb3duIiwibWludXRlTGVmdCIsIm1pbnV0ZVJpZ2h0IiwiU3RyaW5nIiwicGFkU3RhcnQiLCJzcGxpdCIsInNlY29uZExlZnQiLCJzZWNvbmRSaWdodCIsImRpdiIsImNsYXNzTmFtZSIsImNvdW50ZG93bkNvbnRhaW5lciIsInNwYW4iLCJidXR0b24iLCJkaXNhYmxlZCIsImNvdW50ZG93bkJ1dHRvbiIsInR5cGUiLCJjb3VudGRvd25CdXR0b25EaXNhYmxlZCIsIm9uQ2xpY2siXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/components/Countdown.tsx\n");
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "I": () => (/* binding */ Countdown)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _contexts_CountdownContext__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(914);
+/* harmony import */ var _styles_components_Countdown_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(477);
+/* harmony import */ var _styles_components_Countdown_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_components_Countdown_module_css__WEBPACK_IMPORTED_MODULE_3__);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_contexts_CountdownContext__WEBPACK_IMPORTED_MODULE_2__]);
+_contexts_CountdownContext__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+
+
+
+
+function Countdown() {
+    const { minutes , seconds , hasFinished , isActive , resetCountdown , startCountdown  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useContext)(_contexts_CountdownContext__WEBPACK_IMPORTED_MODULE_2__/* .CountdownContext */ .u);
+    const [minuteLeft, minuteRight] = String(minutes).padStart(2, "0").split("");
+    const [secondLeft, secondRight] = String(seconds).padStart(2, "0").split("");
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+        children: [
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                className: (_styles_components_Countdown_module_css__WEBPACK_IMPORTED_MODULE_3___default().countdownContainer),
+                children: [
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                        children: [
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                children: minuteLeft
+                            }),
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                children: minuteRight
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                        children: ":"
+                    }),
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                        children: [
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                children: secondLeft
+                            }),
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                children: secondRight
+                            })
+                        ]
+                    })
+                ]
+            }),
+            hasFinished ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
+                disabled: true,
+                className: (_styles_components_Countdown_module_css__WEBPACK_IMPORTED_MODULE_3___default().countdownButton),
+                children: "Ciclo encerrado"
+            }) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
+                children: isActive ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
+                    type: "button",
+                    className: `${(_styles_components_Countdown_module_css__WEBPACK_IMPORTED_MODULE_3___default().countdownButton)} ${(_styles_components_Countdown_module_css__WEBPACK_IMPORTED_MODULE_3___default().countdownButtonDisabled)}`,
+                    onClick: resetCountdown,
+                    children: "Abandonar ciclo"
+                }) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
+                    type: "button",
+                    className: (_styles_components_Countdown_module_css__WEBPACK_IMPORTED_MODULE_3___default().countdownButton),
+                    onClick: startCountdown,
+                    children: "Iniciar um ciclo"
+                })
+            })
+        ]
+    });
+}
+
+__webpack_async_result__();
+} catch(e) { __webpack_async_result__(e); } });
 
 /***/ }),
 
-/***/ "./src/components/ExperienceBar.tsx":
-/*!******************************************!*\
-  !*** ./src/components/ExperienceBar.tsx ***!
-  \******************************************/
+/***/ 355:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"ExperienceBar\": () => (/* binding */ ExperienceBar)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles_components_ExperienceBar_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/components/ExperienceBar.module.css */ \"./src/styles/components/ExperienceBar.module.css\");\n/* harmony import */ var _styles_components_ExperienceBar_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_components_ExperienceBar_module_css__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../contexts/ChallengesContext */ \"./src/contexts/ChallengesContext.tsx\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__]);\n_contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\n\n\nfunction ExperienceBar() {\n    const { currentExperience , experienceToNextLevel  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useContext)(_contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__.ChallengesContext);\n    const percentToNextLevel = Math.round(currentExperience * 100) / experienceToNextLevel;\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"header\", {\n        className: (_styles_components_ExperienceBar_module_css__WEBPACK_IMPORTED_MODULE_3___default().experienceBar),\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                children: \"0 xp\"\n            }, void 0, false, {\n                fileName: \"/home/carestiniw/Workspace/te-meche/src/components/ExperienceBar.tsx\",\n                lineNumber: 15,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        style: {\n                            width: `${percentToNextLevel}%`\n                        }\n                    }, void 0, false, {\n                        fileName: \"/home/carestiniw/Workspace/te-meche/src/components/ExperienceBar.tsx\",\n                        lineNumber: 17,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                        className: (_styles_components_ExperienceBar_module_css__WEBPACK_IMPORTED_MODULE_3___default().currentExperience),\n                        style: {\n                            left: `${percentToNextLevel}%`\n                        },\n                        children: [\n                            currentExperience,\n                            \" xp\"\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/home/carestiniw/Workspace/te-meche/src/components/ExperienceBar.tsx\",\n                        lineNumber: 18,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/home/carestiniw/Workspace/te-meche/src/components/ExperienceBar.tsx\",\n                lineNumber: 16,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                children: [\n                    experienceToNextLevel,\n                    \" xp\"\n                ]\n            }, void 0, true, {\n                fileName: \"/home/carestiniw/Workspace/te-meche/src/components/ExperienceBar.tsx\",\n                lineNumber: 25,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/home/carestiniw/Workspace/te-meche/src/components/ExperienceBar.tsx\",\n        lineNumber: 14,\n        columnNumber: 5\n    }, this);\n}\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9FeHBlcmllbmNlQmFyLnRzeC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7OztBQUFBO0FBQWtFO0FBRS9CO0FBQytCO0FBRTNELFNBQVNHLGdCQUFnQjtJQUM5QixNQUFNLEVBQUVDLGtCQUFpQixFQUFFQyxzQkFBcUIsRUFBRSxHQUNoREosaURBQVVBLENBQUNDLDBFQUFpQkE7SUFFOUIsTUFBTUkscUJBQ0pDLEtBQUtDLEtBQUssQ0FBQ0osb0JBQW9CLE9BQU9DO0lBRXhDLHFCQUNFLDhEQUFDSTtRQUFPQyxXQUFXVixrR0FBbUI7OzBCQUNwQyw4REFBQ1k7MEJBQUs7Ozs7OzswQkFDTiw4REFBQ0M7O2tDQUNDLDhEQUFDQTt3QkFBSWIsT0FBTzs0QkFBRWMsT0FBTyxDQUFDLEVBQUVSLG1CQUFtQixDQUFDLENBQUM7d0JBQUM7Ozs7OztrQ0FDOUMsOERBQUNNO3dCQUNDRixXQUFXVixzR0FBdUI7d0JBQ2xDQSxPQUFPOzRCQUFFZSxNQUFNLENBQUMsRUFBRVQsbUJBQW1CLENBQUMsQ0FBQzt3QkFBQzs7NEJBRXZDRjs0QkFBa0I7Ozs7Ozs7Ozs7Ozs7MEJBR3ZCLDhEQUFDUTs7b0JBQU1QO29CQUFzQjs7Ozs7Ozs7Ozs7OztBQUduQyxDQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vdGUtbWVjaGUvLi9zcmMvY29tcG9uZW50cy9FeHBlcmllbmNlQmFyLnRzeD81Njk5Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBzdHlsZSBmcm9tIFwiLi4vc3R5bGVzL2NvbXBvbmVudHMvRXhwZXJpZW5jZUJhci5tb2R1bGUuY3NzXCI7XG5cbmltcG9ydCB7IHVzZUNvbnRleHQgfSBmcm9tIFwicmVhY3RcIjtcbmltcG9ydCB7IENoYWxsZW5nZXNDb250ZXh0IH0gZnJvbSBcIi4uL2NvbnRleHRzL0NoYWxsZW5nZXNDb250ZXh0XCI7XG5cbmV4cG9ydCBmdW5jdGlvbiBFeHBlcmllbmNlQmFyKCkge1xuICBjb25zdCB7IGN1cnJlbnRFeHBlcmllbmNlLCBleHBlcmllbmNlVG9OZXh0TGV2ZWwgfSA9XG4gICAgdXNlQ29udGV4dChDaGFsbGVuZ2VzQ29udGV4dCk7XG5cbiAgY29uc3QgcGVyY2VudFRvTmV4dExldmVsID1cbiAgICBNYXRoLnJvdW5kKGN1cnJlbnRFeHBlcmllbmNlICogMTAwKSAvIGV4cGVyaWVuY2VUb05leHRMZXZlbDtcblxuICByZXR1cm4gKFxuICAgIDxoZWFkZXIgY2xhc3NOYW1lPXtzdHlsZS5leHBlcmllbmNlQmFyfT5cbiAgICAgIDxzcGFuPjAgeHA8L3NwYW4+XG4gICAgICA8ZGl2PlxuICAgICAgICA8ZGl2IHN0eWxlPXt7IHdpZHRoOiBgJHtwZXJjZW50VG9OZXh0TGV2ZWx9JWAgfX0gLz5cbiAgICAgICAgPHNwYW5cbiAgICAgICAgICBjbGFzc05hbWU9e3N0eWxlLmN1cnJlbnRFeHBlcmllbmNlfVxuICAgICAgICAgIHN0eWxlPXt7IGxlZnQ6IGAke3BlcmNlbnRUb05leHRMZXZlbH0lYCB9fVxuICAgICAgICA+XG4gICAgICAgICAge2N1cnJlbnRFeHBlcmllbmNlfSB4cFxuICAgICAgICA8L3NwYW4+XG4gICAgICA8L2Rpdj5cbiAgICAgIDxzcGFuPntleHBlcmllbmNlVG9OZXh0TGV2ZWx9IHhwPC9zcGFuPlxuICAgIDwvaGVhZGVyPlxuICApO1xufVxuIl0sIm5hbWVzIjpbInN0eWxlIiwidXNlQ29udGV4dCIsIkNoYWxsZW5nZXNDb250ZXh0IiwiRXhwZXJpZW5jZUJhciIsImN1cnJlbnRFeHBlcmllbmNlIiwiZXhwZXJpZW5jZVRvTmV4dExldmVsIiwicGVyY2VudFRvTmV4dExldmVsIiwiTWF0aCIsInJvdW5kIiwiaGVhZGVyIiwiY2xhc3NOYW1lIiwiZXhwZXJpZW5jZUJhciIsInNwYW4iLCJkaXYiLCJ3aWR0aCIsImxlZnQiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/components/ExperienceBar.tsx\n");
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "E": () => (/* binding */ ExperienceBar)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_components_ExperienceBar_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(452);
+/* harmony import */ var _styles_components_ExperienceBar_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_components_ExperienceBar_module_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(777);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__]);
+_contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+
+
+
+
+function ExperienceBar() {
+    const { currentExperience , experienceToNextLevel  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useContext)(_contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__/* .ChallengesContext */ .w);
+    const percentToNextLevel = Math.round(currentExperience * 100) / experienceToNextLevel;
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("header", {
+        className: (_styles_components_ExperienceBar_module_css__WEBPACK_IMPORTED_MODULE_3___default().experienceBar),
+        children: [
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                children: "0 xp"
+            }),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                children: [
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                        style: {
+                            width: `${percentToNextLevel}%`
+                        }
+                    }),
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
+                        className: (_styles_components_ExperienceBar_module_css__WEBPACK_IMPORTED_MODULE_3___default().currentExperience),
+                        style: {
+                            left: `${percentToNextLevel}%`
+                        },
+                        children: [
+                            currentExperience,
+                            " xp"
+                        ]
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
+                children: [
+                    experienceToNextLevel,
+                    " xp"
+                ]
+            })
+        ]
+    });
+}
+
+__webpack_async_result__();
+} catch(e) { __webpack_async_result__(e); } });
 
 /***/ }),
 
-/***/ "./src/components/LevelUpModal.tsx":
-/*!*****************************************!*\
-  !*** ./src/components/LevelUpModal.tsx ***!
-  \*****************************************/
+/***/ 727:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"LevelUpModal\": () => (/* binding */ LevelUpModal)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../contexts/ChallengesContext */ \"./src/contexts/ChallengesContext.tsx\");\n/* harmony import */ var _styles_components_LevelUpModal_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/components/LevelUpModal.module.css */ \"./src/styles/components/LevelUpModal.module.css\");\n/* harmony import */ var _styles_components_LevelUpModal_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_components_LevelUpModal_module_css__WEBPACK_IMPORTED_MODULE_3__);\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__]);\n_contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\n\n\nfunction LevelUpModal() {\n    const { level , closeLevelUpModal  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useContext)(_contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__.ChallengesContext);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: (_styles_components_LevelUpModal_module_css__WEBPACK_IMPORTED_MODULE_3___default().overlay),\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            className: (_styles_components_LevelUpModal_module_css__WEBPACK_IMPORTED_MODULE_3___default().container),\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"header\", {\n                    children: level\n                }, void 0, false, {\n                    fileName: \"/home/carestiniw/Workspace/te-meche/src/components/LevelUpModal.tsx\",\n                    lineNumber: 10,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"strong\", {\n                    children: \"Parab\\xe9ns\"\n                }, void 0, false, {\n                    fileName: \"/home/carestiniw/Workspace/te-meche/src/components/LevelUpModal.tsx\",\n                    lineNumber: 12,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                    children: \"Alcan\\xe7ou um novo level\"\n                }, void 0, false, {\n                    fileName: \"/home/carestiniw/Workspace/te-meche/src/components/LevelUpModal.tsx\",\n                    lineNumber: 13,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                    type: \"button\",\n                    onClick: closeLevelUpModal,\n                    children: \"X\"\n                }, void 0, false, {\n                    fileName: \"/home/carestiniw/Workspace/te-meche/src/components/LevelUpModal.tsx\",\n                    lineNumber: 15,\n                    columnNumber: 9\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"/home/carestiniw/Workspace/te-meche/src/components/LevelUpModal.tsx\",\n            lineNumber: 9,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"/home/carestiniw/Workspace/te-meche/src/components/LevelUpModal.tsx\",\n        lineNumber: 8,\n        columnNumber: 5\n    }, this);\n}\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9MZXZlbFVwTW9kYWwudHN4LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7O0FBQUE7QUFBbUM7QUFDK0I7QUFDQTtBQUUzRCxTQUFTRyxlQUFlO0lBQzdCLE1BQU0sRUFBRUMsTUFBSyxFQUFFQyxrQkFBaUIsRUFBRSxHQUFHTCxpREFBVUEsQ0FBQ0MsMEVBQWlCQTtJQUNqRSxxQkFDRSw4REFBQ0s7UUFBSUMsV0FBV0wsMkZBQWM7a0JBQzVCLDRFQUFDSTtZQUFJQyxXQUFXTCw2RkFBZ0I7OzhCQUM5Qiw4REFBQ1E7OEJBQVFOOzs7Ozs7OEJBRVQsOERBQUNPOzhCQUFPOzs7Ozs7OEJBQ1IsOERBQUNDOzhCQUFFOzs7Ozs7OEJBRUgsOERBQUNDO29CQUFPQyxNQUFLO29CQUFTQyxTQUFTVjs4QkFBbUI7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBTTFELENBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly90ZS1tZWNoZS8uL3NyYy9jb21wb25lbnRzL0xldmVsVXBNb2RhbC50c3g/MmExZCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyB1c2VDb250ZXh0IH0gZnJvbSBcInJlYWN0XCI7XG5pbXBvcnQgeyBDaGFsbGVuZ2VzQ29udGV4dCB9IGZyb20gXCIuLi9jb250ZXh0cy9DaGFsbGVuZ2VzQ29udGV4dFwiO1xuaW1wb3J0IHN0eWxlcyBmcm9tIFwiLi4vc3R5bGVzL2NvbXBvbmVudHMvTGV2ZWxVcE1vZGFsLm1vZHVsZS5jc3NcIjtcblxuZXhwb3J0IGZ1bmN0aW9uIExldmVsVXBNb2RhbCgpIHtcbiAgY29uc3QgeyBsZXZlbCwgY2xvc2VMZXZlbFVwTW9kYWwgfSA9IHVzZUNvbnRleHQoQ2hhbGxlbmdlc0NvbnRleHQpO1xuICByZXR1cm4gKFxuICAgIDxkaXYgY2xhc3NOYW1lPXtzdHlsZXMub3ZlcmxheX0+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT17c3R5bGVzLmNvbnRhaW5lcn0+XG4gICAgICAgIDxoZWFkZXI+e2xldmVsfTwvaGVhZGVyPlxuXG4gICAgICAgIDxzdHJvbmc+UGFyYWLDqW5zPC9zdHJvbmc+XG4gICAgICAgIDxwPkFsY2Fuw6dvdSB1bSBub3ZvIGxldmVsPC9wPlxuXG4gICAgICAgIDxidXR0b24gdHlwZT1cImJ1dHRvblwiIG9uQ2xpY2s9e2Nsb3NlTGV2ZWxVcE1vZGFsfT5cbiAgICAgICAgICBYXG4gICAgICAgIDwvYnV0dG9uPlxuICAgICAgPC9kaXY+XG4gICAgPC9kaXY+XG4gICk7XG59XG4iXSwibmFtZXMiOlsidXNlQ29udGV4dCIsIkNoYWxsZW5nZXNDb250ZXh0Iiwic3R5bGVzIiwiTGV2ZWxVcE1vZGFsIiwibGV2ZWwiLCJjbG9zZUxldmVsVXBNb2RhbCIsImRpdiIsImNsYXNzTmFtZSIsIm92ZXJsYXkiLCJjb250YWluZXIiLCJoZWFkZXIiLCJzdHJvbmciLCJwIiwiYnV0dG9uIiwidHlwZSIsIm9uQ2xpY2siXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/components/LevelUpModal.tsx\n");
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "g": () => (/* binding */ LevelUpModal)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(777);
+/* harmony import */ var _styles_components_LevelUpModal_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(186);
+/* harmony import */ var _styles_components_LevelUpModal_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_components_LevelUpModal_module_css__WEBPACK_IMPORTED_MODULE_3__);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__]);
+_contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+
+
+
+
+function LevelUpModal() {
+    const { level , closeLevelUpModal  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useContext)(_contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__/* .ChallengesContext */ .w);
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+        className: (_styles_components_LevelUpModal_module_css__WEBPACK_IMPORTED_MODULE_3___default().overlay),
+        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+            className: (_styles_components_LevelUpModal_module_css__WEBPACK_IMPORTED_MODULE_3___default().container),
+            children: [
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("header", {
+                    children: level
+                }),
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("strong", {
+                    children: "Parab\xe9ns"
+                }),
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                    children: "Alcan\xe7ou um novo level"
+                }),
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
+                    type: "button",
+                    onClick: closeLevelUpModal,
+                    children: "X"
+                })
+            ]
+        })
+    });
+}
+
+__webpack_async_result__();
+} catch(e) { __webpack_async_result__(e); } });
 
 /***/ }),
 
-/***/ "./src/components/Profile.tsx":
-/*!************************************!*\
-  !*** ./src/components/Profile.tsx ***!
-  \************************************/
+/***/ 627:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Profile\": () => (/* binding */ Profile)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../contexts/ChallengesContext */ \"./src/contexts/ChallengesContext.tsx\");\n/* harmony import */ var _styles_components_Profile_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/components/Profile.module.css */ \"./src/styles/components/Profile.module.css\");\n/* harmony import */ var _styles_components_Profile_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_components_Profile_module_css__WEBPACK_IMPORTED_MODULE_3__);\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__]);\n_contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\n\n\nfunction Profile() {\n    const { level  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useContext)(_contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__.ChallengesContext);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: (_styles_components_Profile_module_css__WEBPACK_IMPORTED_MODULE_3___default().profileContainer),\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                src: \"https://avatars.githubusercontent.com/u/48692830?v=4\",\n                alt: \"MInha imagem\"\n            }, void 0, false, {\n                fileName: \"/home/carestiniw/Workspace/te-meche/src/components/Profile.tsx\",\n                lineNumber: 10,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"strong\", {\n                        children: \"Meu nome\"\n                    }, void 0, false, {\n                        fileName: \"/home/carestiniw/Workspace/te-meche/src/components/Profile.tsx\",\n                        lineNumber: 15,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                                src: \"icons/level-up.svg\",\n                                alt: \"Level\"\n                            }, void 0, false, {\n                                fileName: \"/home/carestiniw/Workspace/te-meche/src/components/Profile.tsx\",\n                                lineNumber: 17,\n                                columnNumber: 11\n                            }, this),\n                            \"Level \",\n                            level\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/home/carestiniw/Workspace/te-meche/src/components/Profile.tsx\",\n                        lineNumber: 16,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/home/carestiniw/Workspace/te-meche/src/components/Profile.tsx\",\n                lineNumber: 14,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/home/carestiniw/Workspace/te-meche/src/components/Profile.tsx\",\n        lineNumber: 9,\n        columnNumber: 5\n    }, this);\n}\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9Qcm9maWxlLnRzeC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7OztBQUFBO0FBQW1DO0FBQytCO0FBQ0w7QUFFdEQsU0FBU0csVUFBVTtJQUN4QixNQUFNLEVBQUVDLE1BQUssRUFBRSxHQUFHSixpREFBVUEsQ0FBQ0MsMEVBQWlCQTtJQUU5QyxxQkFDRSw4REFBQ0k7UUFBSUMsV0FBV0osK0ZBQXVCOzswQkFDckMsOERBQUNNO2dCQUNDQyxLQUFJO2dCQUNKQyxLQUFJOzs7Ozs7MEJBRU4sOERBQUNMOztrQ0FDQyw4REFBQ007a0NBQU87Ozs7OztrQ0FDUiw4REFBQ0M7OzBDQUNDLDhEQUFDSjtnQ0FBSUMsS0FBSTtnQ0FBcUJDLEtBQUk7Ozs7Ozs0QkFBVTs0QkFDckNOOzs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBS2pCLENBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly90ZS1tZWNoZS8uL3NyYy9jb21wb25lbnRzL1Byb2ZpbGUudHN4PzY0N2MiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgdXNlQ29udGV4dCB9IGZyb20gXCJyZWFjdFwiO1xuaW1wb3J0IHsgQ2hhbGxlbmdlc0NvbnRleHQgfSBmcm9tIFwiLi4vY29udGV4dHMvQ2hhbGxlbmdlc0NvbnRleHRcIjtcbmltcG9ydCBzdHlsZXMgZnJvbSBcIi4uL3N0eWxlcy9jb21wb25lbnRzL1Byb2ZpbGUubW9kdWxlLmNzc1wiO1xuXG5leHBvcnQgZnVuY3Rpb24gUHJvZmlsZSgpIHtcbiAgY29uc3QgeyBsZXZlbCB9ID0gdXNlQ29udGV4dChDaGFsbGVuZ2VzQ29udGV4dCk7XG5cbiAgcmV0dXJuIChcbiAgICA8ZGl2IGNsYXNzTmFtZT17c3R5bGVzLnByb2ZpbGVDb250YWluZXJ9PlxuICAgICAgPGltZ1xuICAgICAgICBzcmM9XCJodHRwczovL2F2YXRhcnMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvNDg2OTI4MzA/dj00XCJcbiAgICAgICAgYWx0PVwiTUluaGEgaW1hZ2VtXCJcbiAgICAgIC8+XG4gICAgICA8ZGl2PlxuICAgICAgICA8c3Ryb25nPk1ldSBub21lPC9zdHJvbmc+XG4gICAgICAgIDxwPlxuICAgICAgICAgIDxpbWcgc3JjPVwiaWNvbnMvbGV2ZWwtdXAuc3ZnXCIgYWx0PVwiTGV2ZWxcIiAvPlxuICAgICAgICAgIExldmVsIHtsZXZlbH1cbiAgICAgICAgPC9wPlxuICAgICAgPC9kaXY+XG4gICAgPC9kaXY+XG4gICk7XG59XG4iXSwibmFtZXMiOlsidXNlQ29udGV4dCIsIkNoYWxsZW5nZXNDb250ZXh0Iiwic3R5bGVzIiwiUHJvZmlsZSIsImxldmVsIiwiZGl2IiwiY2xhc3NOYW1lIiwicHJvZmlsZUNvbnRhaW5lciIsImltZyIsInNyYyIsImFsdCIsInN0cm9uZyIsInAiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/components/Profile.tsx\n");
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "N": () => (/* binding */ Profile)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(777);
+/* harmony import */ var _styles_components_Profile_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(595);
+/* harmony import */ var _styles_components_Profile_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_components_Profile_module_css__WEBPACK_IMPORTED_MODULE_3__);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__]);
+_contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+
+
+
+
+function Profile() {
+    const { level  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useContext)(_contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_2__/* .ChallengesContext */ .w);
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+        className: (_styles_components_Profile_module_css__WEBPACK_IMPORTED_MODULE_3___default().profileContainer),
+        children: [
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                src: "https://avatars.githubusercontent.com/u/48692830?v=4",
+                alt: "MInha imagem"
+            }),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                children: [
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("strong", {
+                        children: "Meu nome"
+                    }),
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
+                        children: [
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                                src: "icons/level-up.svg",
+                                alt: "Level"
+                            }),
+                            "Level ",
+                            level
+                        ]
+                    })
+                ]
+            })
+        ]
+    });
+}
+
+__webpack_async_result__();
+} catch(e) { __webpack_async_result__(e); } });
 
 /***/ }),
 
-/***/ "./src/contexts/ChallengesContext.tsx":
-/*!********************************************!*\
-  !*** ./src/contexts/ChallengesContext.tsx ***!
-  \********************************************/
+/***/ 777:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"ChallengesContext\": () => (/* binding */ ChallengesContext),\n/* harmony export */   \"ChallengesProvider\": () => (/* binding */ ChallengesProvider)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! js-cookie */ \"js-cookie\");\n/* harmony import */ var _challenges_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../challenges.json */ \"./challenges.json\");\n/* harmony import */ var _components_LevelUpModal__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/LevelUpModal */ \"./src/components/LevelUpModal.tsx\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([js_cookie__WEBPACK_IMPORTED_MODULE_2__, _components_LevelUpModal__WEBPACK_IMPORTED_MODULE_4__]);\n([js_cookie__WEBPACK_IMPORTED_MODULE_2__, _components_LevelUpModal__WEBPACK_IMPORTED_MODULE_4__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);\n\n\n\n\n\nconst ChallengesContext = /*#__PURE__*/ (0,react__WEBPACK_IMPORTED_MODULE_1__.createContext)({});\nfunction ChallengesProvider({ children , ...rest }) {\n    const [level, setLevel] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(rest.level ?? 1);\n    const [currentExperience, setCurrentExperience] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(rest.currentExperience ?? 0);\n    const [challengesCompleted, setChallengesCompleted] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(rest.challengesCompleted ?? 0);\n    const [activeChallenge, setActiveChallenge] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)();\n    const [isLevelUpModalOpen, setIsLevelUpModalOpen] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false);\n    const experienceToNextLevel = Math.pow((level + 1) * 4, 2);\n    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{\n        Notification.requestPermission();\n    }, []);\n    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{\n        js_cookie__WEBPACK_IMPORTED_MODULE_2__[\"default\"].set(\"level\", String(level));\n        js_cookie__WEBPACK_IMPORTED_MODULE_2__[\"default\"].set(\"currentExperience\", String(currentExperience));\n        js_cookie__WEBPACK_IMPORTED_MODULE_2__[\"default\"].set(\"challengesCompleted\", String(challengesCompleted));\n    }, [\n        level,\n        currentExperience,\n        challengesCompleted\n    ]);\n    function levelUp() {\n        setLevel(level + 1);\n        setIsLevelUpModalOpen(true);\n    }\n    function closeLevelUpModal() {\n        setIsLevelUpModalOpen(false);\n    }\n    function startNewChallenge() {\n        const randomChallengeIndex = Math.floor(Math.random() * _challenges_json__WEBPACK_IMPORTED_MODULE_3__.length);\n        const challenge = _challenges_json__WEBPACK_IMPORTED_MODULE_3__[randomChallengeIndex];\n        setActiveChallenge(challenge);\n        new Audio(\"/notification.mp3\").play();\n        if (Notification.permission === \"granted\") {\n            new Notification(\"Novo desafio\", {\n                body: `Valendo ${challenge.amount}`\n            });\n        }\n    }\n    function resetChallenge() {\n        setActiveChallenge(undefined);\n    }\n    function completeChallenge() {\n        if (!activeChallenge) {\n            return;\n        }\n        const { amount  } = activeChallenge;\n        let finalExperience = currentExperience + amount;\n        if (finalExperience >= experienceToNextLevel) {\n            finalExperience = finalExperience - experienceToNextLevel;\n            levelUp();\n        }\n        setCurrentExperience(finalExperience);\n        setActiveChallenge(undefined);\n        setChallengesCompleted(challengesCompleted + 1);\n    }\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(ChallengesContext.Provider, {\n        value: {\n            startNewChallenge,\n            level,\n            challengesCompleted,\n            currentExperience,\n            levelUp,\n            activeChallenge,\n            resetChallenge,\n            experienceToNextLevel,\n            completeChallenge,\n            closeLevelUpModal\n        },\n        children: [\n            children,\n            isLevelUpModalOpen && /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_LevelUpModal__WEBPACK_IMPORTED_MODULE_4__.LevelUpModal, {}, void 0, false, {\n                fileName: \"/home/carestiniw/Workspace/te-meche/src/contexts/ChallengesContext.tsx\",\n                lineNumber: 125,\n                columnNumber: 30\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/home/carestiniw/Workspace/te-meche/src/contexts/ChallengesContext.tsx\",\n        lineNumber: 110,\n        columnNumber: 5\n    }, this);\n}\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29udGV4dHMvQ2hhbGxlbmdlc0NvbnRleHQudHN4LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7OztBQUFBO0FBQXNFO0FBQ3RDO0FBQ2U7QUFDVztBQTJCbkQsTUFBTU0sa0NBQW9CTixvREFBYUEsQ0FBQyxDQUFDLEdBQTRCO0FBRXJFLFNBQVNPLG1CQUFtQixFQUNqQ0MsU0FBUSxFQUNSLEdBQUdDLE1BQ29CLEVBQUU7SUFDekIsTUFBTSxDQUFDQyxPQUFPQyxTQUFTLEdBQUdULCtDQUFRQSxDQUFDTyxLQUFLQyxLQUFLLElBQUk7SUFDakQsTUFBTSxDQUFDRSxtQkFBbUJDLHFCQUFxQixHQUFHWCwrQ0FBUUEsQ0FDeERPLEtBQUtHLGlCQUFpQixJQUFJO0lBRTVCLE1BQU0sQ0FBQ0UscUJBQXFCQyx1QkFBdUIsR0FBR2IsK0NBQVFBLENBQzVETyxLQUFLSyxtQkFBbUIsSUFBSTtJQUc5QixNQUFNLENBQUNFLGlCQUFpQkMsbUJBQW1CLEdBQUdmLCtDQUFRQTtJQUd0RCxNQUFNLENBQUNnQixvQkFBb0JDLHNCQUFzQixHQUFHakIsK0NBQVFBLENBQUMsS0FBSztJQUVsRSxNQUFNa0Isd0JBQXdCQyxLQUFLQyxHQUFHLENBQUMsQ0FBQ1osUUFBUSxLQUFLLEdBQUc7SUFFeERULGdEQUFTQSxDQUFDLElBQU07UUFDZHNCLGFBQWFDLGlCQUFpQjtJQUNoQyxHQUFHLEVBQUU7SUFFTHZCLGdEQUFTQSxDQUFDLElBQU07UUFDZEUscURBQVcsQ0FBQyxTQUFTdUIsT0FBT2hCO1FBQzVCUCxxREFBVyxDQUFDLHFCQUFxQnVCLE9BQU9kO1FBQ3hDVCxxREFBVyxDQUFDLHVCQUF1QnVCLE9BQU9aO0lBQzVDLEdBQUc7UUFBQ0o7UUFBT0U7UUFBbUJFO0tBQW9CO0lBRWxELFNBQVNhLFVBQVU7UUFDakJoQixTQUFTRCxRQUFRO1FBQ2pCUyxzQkFBc0IsSUFBSTtJQUM1QjtJQUVBLFNBQVNTLG9CQUFvQjtRQUMzQlQsc0JBQXNCLEtBQUs7SUFDN0I7SUFFQSxTQUFTVSxvQkFBb0I7UUFDM0IsTUFBTUMsdUJBQXVCVCxLQUFLVSxLQUFLLENBQUNWLEtBQUtXLE1BQU0sS0FBSzVCLG9EQUFpQjtRQUN6RSxNQUFNOEIsWUFBdUI5Qiw2Q0FBVSxDQUFDMEIscUJBQXFCO1FBRTdEYixtQkFBbUJpQjtRQUVuQixJQUFJQyxNQUFNLHFCQUFxQkMsSUFBSTtRQUVuQyxJQUFJYixhQUFhYyxVQUFVLEtBQUssV0FBVztZQUN6QyxJQUFJZCxhQUFhLGdCQUFnQjtnQkFDL0JlLE1BQU0sQ0FBQyxRQUFRLEVBQUVKLFVBQVVLLE1BQU0sQ0FBQyxDQUFDO1lBQ3JDO1FBQ0YsQ0FBQztJQUNIO0lBRUEsU0FBU0MsaUJBQWlCO1FBQ3hCdkIsbUJBQW1Cd0I7SUFDckI7SUFFQSxTQUFTQyxvQkFBb0I7UUFDM0IsSUFBSSxDQUFDMUIsaUJBQWlCO1lBQ3BCO1FBQ0YsQ0FBQztRQUVELE1BQU0sRUFBRXVCLE9BQU0sRUFBRSxHQUFHdkI7UUFFbkIsSUFBSTJCLGtCQUFrQi9CLG9CQUFvQjJCO1FBRTFDLElBQUlJLG1CQUFtQnZCLHVCQUF1QjtZQUM1Q3VCLGtCQUFrQkEsa0JBQWtCdkI7WUFDcENPO1FBQ0YsQ0FBQztRQUVEZCxxQkFBcUI4QjtRQUNyQjFCLG1CQUFtQndCO1FBQ25CMUIsdUJBQXVCRCxzQkFBc0I7SUFDL0M7SUFFQSxxQkFDRSw4REFBQ1Isa0JBQWtCc0MsUUFBUTtRQUN6QkMsT0FBTztZQUNMaEI7WUFDQW5CO1lBQ0FJO1lBQ0FGO1lBQ0FlO1lBQ0FYO1lBQ0F3QjtZQUNBcEI7WUFDQXNCO1lBQ0FkO1FBQ0Y7O1lBRUNwQjtZQUNBVSxvQ0FBc0IsOERBQUNiLGtFQUFZQTs7Ozs7Ozs7Ozs7QUFHMUMsQ0FBQyIsInNvdXJjZXMiOlsid2VicGFjazovL3RlLW1lY2hlLy4vc3JjL2NvbnRleHRzL0NoYWxsZW5nZXNDb250ZXh0LnRzeD9hNTk3Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IGNyZWF0ZUNvbnRleHQsIFJlYWN0Tm9kZSwgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gXCJyZWFjdFwiO1xuaW1wb3J0IENvb2tpZXMgZnJvbSBcImpzLWNvb2tpZVwiO1xuaW1wb3J0IGNoYWxsZW5nZXMgZnJvbSBcIi4uLy4uL2NoYWxsZW5nZXMuanNvblwiO1xuaW1wb3J0IHsgTGV2ZWxVcE1vZGFsIH0gZnJvbSBcIi4uL2NvbXBvbmVudHMvTGV2ZWxVcE1vZGFsXCI7XG5cbmludGVyZmFjZSBDaGFsbGVuZ2Uge1xuICB0eXBlOiBcImJvZHlcIiB8IFwiZXllXCI7XG4gIGRlc2NyaXB0aW9uOiBzdHJpbmc7XG4gIGFtb3VudDogbnVtYmVyO1xufVxuXG5pbnRlcmZhY2UgQ2hhbGxlbmdlc0NvbnRleHREYXRhIHtcbiAgc3RhcnROZXdDaGFsbGVuZ2U6ICgpID0+IHZvaWQ7XG4gIGxldmVsOiBudW1iZXI7XG4gIGNoYWxsZW5nZXNDb21wbGV0ZWQ6IG51bWJlcjtcbiAgY3VycmVudEV4cGVyaWVuY2U6IG51bWJlcjtcbiAgbGV2ZWxVcDogKCkgPT4gdm9pZDtcbiAgYWN0aXZlQ2hhbGxlbmdlOiBDaGFsbGVuZ2UgfCB1bmRlZmluZWQ7XG4gIHJlc2V0Q2hhbGxlbmdlOiAoKSA9PiB2b2lkO1xuICBleHBlcmllbmNlVG9OZXh0TGV2ZWw6IG51bWJlcjtcbiAgY29tcGxldGVDaGFsbGVuZ2U6ICgpID0+IHZvaWQ7XG4gIGNsb3NlTGV2ZWxVcE1vZGFsOiAoKSA9PiB2b2lkO1xufVxuXG5pbnRlcmZhY2UgQ2hhbGxlbmdlUHJvdmlkZXJQcm9wcyB7XG4gIGNoaWxkcmVuOiBSZWFjdE5vZGU7XG4gIGxldmVsOiBudW1iZXI7XG4gIGN1cnJlbnRFeHBlcmllbmNlOiBudW1iZXI7XG4gIGNoYWxsZW5nZXNDb21wbGV0ZWQ6IG51bWJlcjtcbn1cbmV4cG9ydCBjb25zdCBDaGFsbGVuZ2VzQ29udGV4dCA9IGNyZWF0ZUNvbnRleHQoe30gYXMgQ2hhbGxlbmdlc0NvbnRleHREYXRhKTtcblxuZXhwb3J0IGZ1bmN0aW9uIENoYWxsZW5nZXNQcm92aWRlcih7XG4gIGNoaWxkcmVuLFxuICAuLi5yZXN0XG59OiBDaGFsbGVuZ2VQcm92aWRlclByb3BzKSB7XG4gIGNvbnN0IFtsZXZlbCwgc2V0TGV2ZWxdID0gdXNlU3RhdGUocmVzdC5sZXZlbCA/PyAxKTtcbiAgY29uc3QgW2N1cnJlbnRFeHBlcmllbmNlLCBzZXRDdXJyZW50RXhwZXJpZW5jZV0gPSB1c2VTdGF0ZShcbiAgICByZXN0LmN1cnJlbnRFeHBlcmllbmNlID8/IDBcbiAgKTtcbiAgY29uc3QgW2NoYWxsZW5nZXNDb21wbGV0ZWQsIHNldENoYWxsZW5nZXNDb21wbGV0ZWRdID0gdXNlU3RhdGUoXG4gICAgcmVzdC5jaGFsbGVuZ2VzQ29tcGxldGVkID8/IDBcbiAgKTtcblxuICBjb25zdCBbYWN0aXZlQ2hhbGxlbmdlLCBzZXRBY3RpdmVDaGFsbGVuZ2VdID0gdXNlU3RhdGU8XG4gICAgQ2hhbGxlbmdlIHwgdW5kZWZpbmVkXG4gID4oKTtcbiAgY29uc3QgW2lzTGV2ZWxVcE1vZGFsT3Blbiwgc2V0SXNMZXZlbFVwTW9kYWxPcGVuXSA9IHVzZVN0YXRlKGZhbHNlKTtcblxuICBjb25zdCBleHBlcmllbmNlVG9OZXh0TGV2ZWwgPSBNYXRoLnBvdygobGV2ZWwgKyAxKSAqIDQsIDIpO1xuXG4gIHVzZUVmZmVjdCgoKSA9PiB7XG4gICAgTm90aWZpY2F0aW9uLnJlcXVlc3RQZXJtaXNzaW9uKCk7XG4gIH0sIFtdKTtcblxuICB1c2VFZmZlY3QoKCkgPT4ge1xuICAgIENvb2tpZXMuc2V0KFwibGV2ZWxcIiwgU3RyaW5nKGxldmVsKSk7XG4gICAgQ29va2llcy5zZXQoXCJjdXJyZW50RXhwZXJpZW5jZVwiLCBTdHJpbmcoY3VycmVudEV4cGVyaWVuY2UpKTtcbiAgICBDb29raWVzLnNldChcImNoYWxsZW5nZXNDb21wbGV0ZWRcIiwgU3RyaW5nKGNoYWxsZW5nZXNDb21wbGV0ZWQpKTtcbiAgfSwgW2xldmVsLCBjdXJyZW50RXhwZXJpZW5jZSwgY2hhbGxlbmdlc0NvbXBsZXRlZF0pO1xuXG4gIGZ1bmN0aW9uIGxldmVsVXAoKSB7XG4gICAgc2V0TGV2ZWwobGV2ZWwgKyAxKTtcbiAgICBzZXRJc0xldmVsVXBNb2RhbE9wZW4odHJ1ZSk7XG4gIH1cblxuICBmdW5jdGlvbiBjbG9zZUxldmVsVXBNb2RhbCgpIHtcbiAgICBzZXRJc0xldmVsVXBNb2RhbE9wZW4oZmFsc2UpO1xuICB9XG5cbiAgZnVuY3Rpb24gc3RhcnROZXdDaGFsbGVuZ2UoKSB7XG4gICAgY29uc3QgcmFuZG9tQ2hhbGxlbmdlSW5kZXggPSBNYXRoLmZsb29yKE1hdGgucmFuZG9tKCkgKiBjaGFsbGVuZ2VzLmxlbmd0aCk7XG4gICAgY29uc3QgY2hhbGxlbmdlOiBDaGFsbGVuZ2UgPSBjaGFsbGVuZ2VzW3JhbmRvbUNoYWxsZW5nZUluZGV4XSBhcyBDaGFsbGVuZ2U7XG5cbiAgICBzZXRBY3RpdmVDaGFsbGVuZ2UoY2hhbGxlbmdlKTtcblxuICAgIG5ldyBBdWRpbyhcIi9ub3RpZmljYXRpb24ubXAzXCIpLnBsYXkoKTtcblxuICAgIGlmIChOb3RpZmljYXRpb24ucGVybWlzc2lvbiA9PT0gXCJncmFudGVkXCIpIHtcbiAgICAgIG5ldyBOb3RpZmljYXRpb24oXCJOb3ZvIGRlc2FmaW9cIiwge1xuICAgICAgICBib2R5OiBgVmFsZW5kbyAke2NoYWxsZW5nZS5hbW91bnR9YCxcbiAgICAgIH0pO1xuICAgIH1cbiAgfVxuXG4gIGZ1bmN0aW9uIHJlc2V0Q2hhbGxlbmdlKCkge1xuICAgIHNldEFjdGl2ZUNoYWxsZW5nZSh1bmRlZmluZWQpO1xuICB9XG5cbiAgZnVuY3Rpb24gY29tcGxldGVDaGFsbGVuZ2UoKSB7XG4gICAgaWYgKCFhY3RpdmVDaGFsbGVuZ2UpIHtcbiAgICAgIHJldHVybjtcbiAgICB9XG5cbiAgICBjb25zdCB7IGFtb3VudCB9ID0gYWN0aXZlQ2hhbGxlbmdlO1xuXG4gICAgbGV0IGZpbmFsRXhwZXJpZW5jZSA9IGN1cnJlbnRFeHBlcmllbmNlICsgYW1vdW50O1xuXG4gICAgaWYgKGZpbmFsRXhwZXJpZW5jZSA+PSBleHBlcmllbmNlVG9OZXh0TGV2ZWwpIHtcbiAgICAgIGZpbmFsRXhwZXJpZW5jZSA9IGZpbmFsRXhwZXJpZW5jZSAtIGV4cGVyaWVuY2VUb05leHRMZXZlbDtcbiAgICAgIGxldmVsVXAoKTtcbiAgICB9XG5cbiAgICBzZXRDdXJyZW50RXhwZXJpZW5jZShmaW5hbEV4cGVyaWVuY2UpO1xuICAgIHNldEFjdGl2ZUNoYWxsZW5nZSh1bmRlZmluZWQpO1xuICAgIHNldENoYWxsZW5nZXNDb21wbGV0ZWQoY2hhbGxlbmdlc0NvbXBsZXRlZCArIDEpO1xuICB9XG5cbiAgcmV0dXJuIChcbiAgICA8Q2hhbGxlbmdlc0NvbnRleHQuUHJvdmlkZXJcbiAgICAgIHZhbHVlPXt7XG4gICAgICAgIHN0YXJ0TmV3Q2hhbGxlbmdlLFxuICAgICAgICBsZXZlbCxcbiAgICAgICAgY2hhbGxlbmdlc0NvbXBsZXRlZCxcbiAgICAgICAgY3VycmVudEV4cGVyaWVuY2UsXG4gICAgICAgIGxldmVsVXAsXG4gICAgICAgIGFjdGl2ZUNoYWxsZW5nZSxcbiAgICAgICAgcmVzZXRDaGFsbGVuZ2UsXG4gICAgICAgIGV4cGVyaWVuY2VUb05leHRMZXZlbCxcbiAgICAgICAgY29tcGxldGVDaGFsbGVuZ2UsXG4gICAgICAgIGNsb3NlTGV2ZWxVcE1vZGFsLFxuICAgICAgfX1cbiAgICA+XG4gICAgICB7Y2hpbGRyZW59XG4gICAgICB7aXNMZXZlbFVwTW9kYWxPcGVuICYmIDxMZXZlbFVwTW9kYWwgLz59XG4gICAgPC9DaGFsbGVuZ2VzQ29udGV4dC5Qcm92aWRlcj5cbiAgKTtcbn1cbiJdLCJuYW1lcyI6WyJjcmVhdGVDb250ZXh0IiwidXNlRWZmZWN0IiwidXNlU3RhdGUiLCJDb29raWVzIiwiY2hhbGxlbmdlcyIsIkxldmVsVXBNb2RhbCIsIkNoYWxsZW5nZXNDb250ZXh0IiwiQ2hhbGxlbmdlc1Byb3ZpZGVyIiwiY2hpbGRyZW4iLCJyZXN0IiwibGV2ZWwiLCJzZXRMZXZlbCIsImN1cnJlbnRFeHBlcmllbmNlIiwic2V0Q3VycmVudEV4cGVyaWVuY2UiLCJjaGFsbGVuZ2VzQ29tcGxldGVkIiwic2V0Q2hhbGxlbmdlc0NvbXBsZXRlZCIsImFjdGl2ZUNoYWxsZW5nZSIsInNldEFjdGl2ZUNoYWxsZW5nZSIsImlzTGV2ZWxVcE1vZGFsT3BlbiIsInNldElzTGV2ZWxVcE1vZGFsT3BlbiIsImV4cGVyaWVuY2VUb05leHRMZXZlbCIsIk1hdGgiLCJwb3ciLCJOb3RpZmljYXRpb24iLCJyZXF1ZXN0UGVybWlzc2lvbiIsInNldCIsIlN0cmluZyIsImxldmVsVXAiLCJjbG9zZUxldmVsVXBNb2RhbCIsInN0YXJ0TmV3Q2hhbGxlbmdlIiwicmFuZG9tQ2hhbGxlbmdlSW5kZXgiLCJmbG9vciIsInJhbmRvbSIsImxlbmd0aCIsImNoYWxsZW5nZSIsIkF1ZGlvIiwicGxheSIsInBlcm1pc3Npb24iLCJib2R5IiwiYW1vdW50IiwicmVzZXRDaGFsbGVuZ2UiLCJ1bmRlZmluZWQiLCJjb21wbGV0ZUNoYWxsZW5nZSIsImZpbmFsRXhwZXJpZW5jZSIsIlByb3ZpZGVyIiwidmFsdWUiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/contexts/ChallengesContext.tsx\n");
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "q": () => (/* binding */ ChallengesProvider),
+/* harmony export */   "w": () => (/* binding */ ChallengesContext)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(915);
+/* harmony import */ var _challenges_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(207);
+/* harmony import */ var _components_LevelUpModal__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(727);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([js_cookie__WEBPACK_IMPORTED_MODULE_2__, _components_LevelUpModal__WEBPACK_IMPORTED_MODULE_4__]);
+([js_cookie__WEBPACK_IMPORTED_MODULE_2__, _components_LevelUpModal__WEBPACK_IMPORTED_MODULE_4__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
+
+
+
+
+
+const ChallengesContext = /*#__PURE__*/ (0,react__WEBPACK_IMPORTED_MODULE_1__.createContext)({});
+function ChallengesProvider({ children , ...rest }) {
+    const [level, setLevel] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(rest.level ?? 1);
+    const [currentExperience, setCurrentExperience] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(rest.currentExperience ?? 0);
+    const [challengesCompleted, setChallengesCompleted] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(rest.challengesCompleted ?? 0);
+    const [activeChallenge, setActiveChallenge] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)();
+    const [isLevelUpModalOpen, setIsLevelUpModalOpen] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false);
+    const experienceToNextLevel = Math.pow((level + 1) * 4, 2);
+    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
+        Notification.requestPermission();
+    }, []);
+    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
+        js_cookie__WEBPACK_IMPORTED_MODULE_2__["default"].set("level", String(level));
+        js_cookie__WEBPACK_IMPORTED_MODULE_2__["default"].set("currentExperience", String(currentExperience));
+        js_cookie__WEBPACK_IMPORTED_MODULE_2__["default"].set("challengesCompleted", String(challengesCompleted));
+    }, [
+        level,
+        currentExperience,
+        challengesCompleted
+    ]);
+    function levelUp() {
+        setLevel(level + 1);
+        setIsLevelUpModalOpen(true);
+    }
+    function closeLevelUpModal() {
+        setIsLevelUpModalOpen(false);
+    }
+    function startNewChallenge() {
+        const randomChallengeIndex = Math.floor(Math.random() * _challenges_json__WEBPACK_IMPORTED_MODULE_3__.length);
+        const challenge = _challenges_json__WEBPACK_IMPORTED_MODULE_3__[randomChallengeIndex];
+        setActiveChallenge(challenge);
+        new Audio("/notification.mp3").play();
+        if (Notification.permission === "granted") {
+            new Notification("Novo desafio", {
+                body: `Valendo ${challenge.amount}`
+            });
+        }
+    }
+    function resetChallenge() {
+        setActiveChallenge(undefined);
+    }
+    function completeChallenge() {
+        if (!activeChallenge) {
+            return;
+        }
+        const { amount  } = activeChallenge;
+        let finalExperience = currentExperience + amount;
+        if (finalExperience >= experienceToNextLevel) {
+            finalExperience = finalExperience - experienceToNextLevel;
+            levelUp();
+        }
+        setCurrentExperience(finalExperience);
+        setActiveChallenge(undefined);
+        setChallengesCompleted(challengesCompleted + 1);
+    }
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(ChallengesContext.Provider, {
+        value: {
+            startNewChallenge,
+            level,
+            challengesCompleted,
+            currentExperience,
+            levelUp,
+            activeChallenge,
+            resetChallenge,
+            experienceToNextLevel,
+            completeChallenge,
+            closeLevelUpModal
+        },
+        children: [
+            children,
+            isLevelUpModalOpen && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_LevelUpModal__WEBPACK_IMPORTED_MODULE_4__/* .LevelUpModal */ .g, {})
+        ]
+    });
+}
+
+__webpack_async_result__();
+} catch(e) { __webpack_async_result__(e); } });
 
 /***/ }),
 
-/***/ "./src/contexts/CountdownContext.tsx":
-/*!*******************************************!*\
-  !*** ./src/contexts/CountdownContext.tsx ***!
-  \*******************************************/
+/***/ 914:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"CountdownContext\": () => (/* binding */ CountdownContext),\n/* harmony export */   \"CountdownProvider\": () => (/* binding */ CountdownProvider)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! js-cookie */ \"js-cookie\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _ChallengesContext__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ChallengesContext */ \"./src/contexts/ChallengesContext.tsx\");\n/* harmony import */ var _styles_pages_Home_module_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/pages/Home.module.css */ \"./src/styles/pages/Home.module.css\");\n/* harmony import */ var _styles_pages_Home_module_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_pages_Home_module_css__WEBPACK_IMPORTED_MODULE_4__);\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([js_cookie__WEBPACK_IMPORTED_MODULE_1__, _ChallengesContext__WEBPACK_IMPORTED_MODULE_3__]);\n([js_cookie__WEBPACK_IMPORTED_MODULE_1__, _ChallengesContext__WEBPACK_IMPORTED_MODULE_3__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);\n\n\n\n\n\nconst CountdownContext = /*#__PURE__*/ (0,react__WEBPACK_IMPORTED_MODULE_2__.createContext)({});\nlet countdownTimeout;\nfunction CountdownProvider({ children , userTime  }) {\n    const { startNewChallenge  } = (0,react__WEBPACK_IMPORTED_MODULE_2__.useContext)(_ChallengesContext__WEBPACK_IMPORTED_MODULE_3__.ChallengesContext);\n    const [time, setTime] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)((userTime || 25) * 60);\n    const [isActive, setIsActive] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)(false);\n    const [hasFinished, setHasFinished] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)(false);\n    const minutes = Math.floor(time / 60);\n    const seconds = time % 60;\n    function startCountdown() {\n        setIsActive(true);\n    }\n    function resetCountdown() {\n        clearTimeout(countdownTimeout);\n        setIsActive(false);\n        setHasFinished(false);\n        setTime(0.05 * 60);\n    }\n    (0,react__WEBPACK_IMPORTED_MODULE_2__.useEffect)(()=>{\n        if (isActive && time > 0) {\n            countdownTimeout = setTimeout(()=>{\n                setTime(time - 1);\n            }, 1000);\n        } else if (isActive && time === 0) {\n            setHasFinished(true);\n            setIsActive(false);\n            startNewChallenge();\n        }\n    }, [\n        isActive,\n        time\n    ]);\n    function handleChange({ key , target  }) {\n        if (key === \"Enter\") {\n            setTime(target.value * 60);\n        }\n    }\n    (0,react__WEBPACK_IMPORTED_MODULE_2__.useEffect)(()=>{\n        js_cookie__WEBPACK_IMPORTED_MODULE_1__[\"default\"].set(\"time\", time);\n    }, [\n        time\n    ]);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(CountdownContext.Provider, {\n        value: {\n            minutes,\n            seconds,\n            hasFinished,\n            isActive,\n            startCountdown,\n            resetCountdown\n        },\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"input\", {\n                className: (_styles_pages_Home_module_css__WEBPACK_IMPORTED_MODULE_4___default().input),\n                type: \"number\",\n                onKeyDown: handleChange\n            }, void 0, false, {\n                fileName: \"/home/carestiniw/Workspace/te-meche/src/contexts/CountdownContext.tsx\",\n                lineNumber: 89,\n                columnNumber: 7\n            }, this),\n            children\n        ]\n    }, void 0, true, {\n        fileName: \"/home/carestiniw/Workspace/te-meche/src/contexts/CountdownContext.tsx\",\n        lineNumber: 79,\n        columnNumber: 5\n    }, this);\n}\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29udGV4dHMvQ291bnRkb3duQ29udGV4dC50c3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7OztBQUFBO0FBQWdDO0FBT2pCO0FBQ3lDO0FBQ0g7QUFnQjlDLE1BQU1PLGlDQUFtQk4sb0RBQWFBLENBQUMsQ0FBQyxHQUEyQjtBQUUxRSxJQUFJTztBQUVHLFNBQVNDLGtCQUFrQixFQUNoQ0MsU0FBUSxFQUNSQyxTQUFRLEVBQ2UsRUFBRTtJQUN6QixNQUFNLEVBQUVDLGtCQUFpQixFQUFFLEdBQUdWLGlEQUFVQSxDQUFDRyxpRUFBaUJBO0lBRTFELE1BQU0sQ0FBQ1EsTUFBTUMsUUFBUSxHQUFHViwrQ0FBUUEsQ0FBQyxDQUFDTyxZQUFZLEVBQUMsSUFBSztJQUNwRCxNQUFNLENBQUNJLFVBQVVDLFlBQVksR0FBR1osK0NBQVFBLENBQUMsS0FBSztJQUM5QyxNQUFNLENBQUNhLGFBQWFDLGVBQWUsR0FBR2QsK0NBQVFBLENBQUMsS0FBSztJQUVwRCxNQUFNZSxVQUFVQyxLQUFLQyxLQUFLLENBQUNSLE9BQU87SUFDbEMsTUFBTVMsVUFBVVQsT0FBTztJQUV2QixTQUFTVSxpQkFBaUI7UUFDeEJQLFlBQVksSUFBSTtJQUNsQjtJQUVBLFNBQVNRLGlCQUFpQjtRQUN4QkMsYUFBYWpCO1FBQ2JRLFlBQVksS0FBSztRQUNqQkUsZUFBZSxLQUFLO1FBQ3BCSixRQUFRLE9BQU87SUFDakI7SUFFQVgsZ0RBQVNBLENBQUMsSUFBTTtRQUNkLElBQUlZLFlBQVlGLE9BQU8sR0FBRztZQUN4QkwsbUJBQW1Ca0IsV0FBVyxJQUFNO2dCQUNsQ1osUUFBUUQsT0FBTztZQUNqQixHQUFHO1FBQ0wsT0FBTyxJQUFJRSxZQUFZRixTQUFTLEdBQUc7WUFDakNLLGVBQWUsSUFBSTtZQUNuQkYsWUFBWSxLQUFLO1lBQ2pCSjtRQUNGLENBQUM7SUFDSCxHQUFHO1FBQUNHO1FBQVVGO0tBQUs7SUFFbkIsU0FBU2MsYUFBYSxFQUNwQkMsSUFBRyxFQUNIQyxPQUFNLEVBQ2dDLEVBQUU7UUFDeEMsSUFBSUQsUUFBUSxTQUFTO1lBQ25CZCxRQUFRZSxPQUFPQyxLQUFLLEdBQUc7UUFDekIsQ0FBQztJQUNIO0lBQ0EzQixnREFBU0EsQ0FBQyxJQUFNO1FBQ2RILHFEQUFXLENBQUMsUUFBUWE7SUFDdEIsR0FBRztRQUFDQTtLQUFLO0lBRVQscUJBQ0UsOERBQUNOLGlCQUFpQnlCLFFBQVE7UUFDeEJGLE9BQU87WUFDTFg7WUFDQUc7WUFDQUw7WUFDQUY7WUFDQVE7WUFDQUM7UUFDRjs7MEJBRUEsOERBQUNTO2dCQUFNQyxXQUFXNUIsNEVBQVk7Z0JBQUU2QixNQUFLO2dCQUFTQyxXQUFXVDs7Ozs7O1lBQ3hEakI7Ozs7Ozs7QUFHUCxDQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vdGUtbWVjaGUvLi9zcmMvY29udGV4dHMvQ291bnRkb3duQ29udGV4dC50c3g/ZThjYSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgQ29va2llcyBmcm9tIFwianMtY29va2llXCI7XG5pbXBvcnQge1xuICBjcmVhdGVDb250ZXh0LFxuICBSZWFjdE5vZGUsXG4gIHVzZUNvbnRleHQsXG4gIHVzZUVmZmVjdCxcbiAgdXNlU3RhdGUsXG59IGZyb20gXCJyZWFjdFwiO1xuaW1wb3J0IHsgQ2hhbGxlbmdlc0NvbnRleHQgfSBmcm9tIFwiLi9DaGFsbGVuZ2VzQ29udGV4dFwiO1xuaW1wb3J0IHN0eWxlcyBmcm9tIFwiLi4vc3R5bGVzL3BhZ2VzL0hvbWUubW9kdWxlLmNzc1wiO1xuXG5pbnRlcmZhY2UgQ291bnRkb3duQ29udGV4dERhdGEge1xuICBtaW51dGVzOiBudW1iZXI7XG4gIHNlY29uZHM6IG51bWJlcjtcbiAgaGFzRmluaXNoZWQ6IGJvb2xlYW47XG4gIGlzQWN0aXZlOiBib29sZWFuO1xuICBzdGFydENvdW50ZG93bjogKCkgPT4gdm9pZDtcbiAgcmVzZXRDb3VudGRvd246ICgpID0+IHZvaWQ7XG59XG5cbmludGVyZmFjZSBDb3VudGRvd25Qcm92aWRlclByb3BzIHtcbiAgY2hpbGRyZW46IFJlYWN0Tm9kZTtcbiAgdXNlclRpbWU6IG51bWJlcjtcbn1cblxuZXhwb3J0IGNvbnN0IENvdW50ZG93bkNvbnRleHQgPSBjcmVhdGVDb250ZXh0KHt9IGFzIENvdW50ZG93bkNvbnRleHREYXRhKTtcblxubGV0IGNvdW50ZG93blRpbWVvdXQ6IE5vZGVKUy5UaW1lb3V0O1xuXG5leHBvcnQgZnVuY3Rpb24gQ291bnRkb3duUHJvdmlkZXIoe1xuICBjaGlsZHJlbixcbiAgdXNlclRpbWUsXG59OiBDb3VudGRvd25Qcm92aWRlclByb3BzKSB7XG4gIGNvbnN0IHsgc3RhcnROZXdDaGFsbGVuZ2UgfSA9IHVzZUNvbnRleHQoQ2hhbGxlbmdlc0NvbnRleHQpO1xuXG4gIGNvbnN0IFt0aW1lLCBzZXRUaW1lXSA9IHVzZVN0YXRlKCh1c2VyVGltZSB8fCAyNSkgKiA2MCk7XG4gIGNvbnN0IFtpc0FjdGl2ZSwgc2V0SXNBY3RpdmVdID0gdXNlU3RhdGUoZmFsc2UpO1xuICBjb25zdCBbaGFzRmluaXNoZWQsIHNldEhhc0ZpbmlzaGVkXSA9IHVzZVN0YXRlKGZhbHNlKTtcblxuICBjb25zdCBtaW51dGVzID0gTWF0aC5mbG9vcih0aW1lIC8gNjApO1xuICBjb25zdCBzZWNvbmRzID0gdGltZSAlIDYwO1xuXG4gIGZ1bmN0aW9uIHN0YXJ0Q291bnRkb3duKCkge1xuICAgIHNldElzQWN0aXZlKHRydWUpO1xuICB9XG5cbiAgZnVuY3Rpb24gcmVzZXRDb3VudGRvd24oKSB7XG4gICAgY2xlYXJUaW1lb3V0KGNvdW50ZG93blRpbWVvdXQpO1xuICAgIHNldElzQWN0aXZlKGZhbHNlKTtcbiAgICBzZXRIYXNGaW5pc2hlZChmYWxzZSk7XG4gICAgc2V0VGltZSgwLjA1ICogNjApO1xuICB9XG5cbiAgdXNlRWZmZWN0KCgpID0+IHtcbiAgICBpZiAoaXNBY3RpdmUgJiYgdGltZSA+IDApIHtcbiAgICAgIGNvdW50ZG93blRpbWVvdXQgPSBzZXRUaW1lb3V0KCgpID0+IHtcbiAgICAgICAgc2V0VGltZSh0aW1lIC0gMSk7XG4gICAgICB9LCAxMDAwKTtcbiAgICB9IGVsc2UgaWYgKGlzQWN0aXZlICYmIHRpbWUgPT09IDApIHtcbiAgICAgIHNldEhhc0ZpbmlzaGVkKHRydWUpO1xuICAgICAgc2V0SXNBY3RpdmUoZmFsc2UpO1xuICAgICAgc3RhcnROZXdDaGFsbGVuZ2UoKTtcbiAgICB9XG4gIH0sIFtpc0FjdGl2ZSwgdGltZV0pO1xuXG4gIGZ1bmN0aW9uIGhhbmRsZUNoYW5nZSh7XG4gICAga2V5LFxuICAgIHRhcmdldCxcbiAgfTogUmVhY3QuS2V5Ym9hcmRFdmVudDxIVE1MSW5wdXRFbGVtZW50Pikge1xuICAgIGlmIChrZXkgPT09IFwiRW50ZXJcIikge1xuICAgICAgc2V0VGltZSh0YXJnZXQudmFsdWUgKiA2MCk7XG4gICAgfVxuICB9XG4gIHVzZUVmZmVjdCgoKSA9PiB7XG4gICAgQ29va2llcy5zZXQoXCJ0aW1lXCIsIHRpbWUpO1xuICB9LCBbdGltZV0pO1xuXG4gIHJldHVybiAoXG4gICAgPENvdW50ZG93bkNvbnRleHQuUHJvdmlkZXJcbiAgICAgIHZhbHVlPXt7XG4gICAgICAgIG1pbnV0ZXMsXG4gICAgICAgIHNlY29uZHMsXG4gICAgICAgIGhhc0ZpbmlzaGVkLFxuICAgICAgICBpc0FjdGl2ZSxcbiAgICAgICAgc3RhcnRDb3VudGRvd24sXG4gICAgICAgIHJlc2V0Q291bnRkb3duLFxuICAgICAgfX1cbiAgICA+XG4gICAgICA8aW5wdXQgY2xhc3NOYW1lPXtzdHlsZXMuaW5wdXR9IHR5cGU9XCJudW1iZXJcIiBvbktleURvd249e2hhbmRsZUNoYW5nZX0gLz5cbiAgICAgIHtjaGlsZHJlbn1cbiAgICA8L0NvdW50ZG93bkNvbnRleHQuUHJvdmlkZXI+XG4gICk7XG59XG4iXSwibmFtZXMiOlsiQ29va2llcyIsImNyZWF0ZUNvbnRleHQiLCJ1c2VDb250ZXh0IiwidXNlRWZmZWN0IiwidXNlU3RhdGUiLCJDaGFsbGVuZ2VzQ29udGV4dCIsInN0eWxlcyIsIkNvdW50ZG93bkNvbnRleHQiLCJjb3VudGRvd25UaW1lb3V0IiwiQ291bnRkb3duUHJvdmlkZXIiLCJjaGlsZHJlbiIsInVzZXJUaW1lIiwic3RhcnROZXdDaGFsbGVuZ2UiLCJ0aW1lIiwic2V0VGltZSIsImlzQWN0aXZlIiwic2V0SXNBY3RpdmUiLCJoYXNGaW5pc2hlZCIsInNldEhhc0ZpbmlzaGVkIiwibWludXRlcyIsIk1hdGgiLCJmbG9vciIsInNlY29uZHMiLCJzdGFydENvdW50ZG93biIsInJlc2V0Q291bnRkb3duIiwiY2xlYXJUaW1lb3V0Iiwic2V0VGltZW91dCIsImhhbmRsZUNoYW5nZSIsImtleSIsInRhcmdldCIsInZhbHVlIiwic2V0IiwiUHJvdmlkZXIiLCJpbnB1dCIsImNsYXNzTmFtZSIsInR5cGUiLCJvbktleURvd24iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/contexts/CountdownContext.tsx\n");
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "M": () => (/* binding */ CountdownProvider),
+/* harmony export */   "u": () => (/* binding */ CountdownContext)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(915);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _ChallengesContext__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(777);
+/* harmony import */ var _styles_pages_Home_module_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(712);
+/* harmony import */ var _styles_pages_Home_module_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_pages_Home_module_css__WEBPACK_IMPORTED_MODULE_4__);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([js_cookie__WEBPACK_IMPORTED_MODULE_1__, _ChallengesContext__WEBPACK_IMPORTED_MODULE_3__]);
+([js_cookie__WEBPACK_IMPORTED_MODULE_1__, _ChallengesContext__WEBPACK_IMPORTED_MODULE_3__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
+
+
+
+
+
+const CountdownContext = /*#__PURE__*/ (0,react__WEBPACK_IMPORTED_MODULE_2__.createContext)({});
+let countdownTimeout;
+function CountdownProvider({ children , userTime  }) {
+    const { startNewChallenge  } = (0,react__WEBPACK_IMPORTED_MODULE_2__.useContext)(_ChallengesContext__WEBPACK_IMPORTED_MODULE_3__/* .ChallengesContext */ .w);
+    const [time, setTime] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)((userTime || 25) * 60);
+    const [isActive, setIsActive] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)(false);
+    const [hasFinished, setHasFinished] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)(false);
+    const minutes = Math.floor(time / 60);
+    const seconds = time % 60;
+    function startCountdown() {
+        setIsActive(true);
+    }
+    function resetCountdown() {
+        clearTimeout(countdownTimeout);
+        setIsActive(false);
+        setHasFinished(false);
+        setTime(0.05 * 60);
+    }
+    (0,react__WEBPACK_IMPORTED_MODULE_2__.useEffect)(()=>{
+        if (isActive && time > 0) {
+            countdownTimeout = setTimeout(()=>{
+                setTime(time - 1);
+            }, 1000);
+        } else if (isActive && time === 0) {
+            setHasFinished(true);
+            setIsActive(false);
+            startNewChallenge();
+        }
+    }, [
+        isActive,
+        time
+    ]);
+    function handleChange({ key , target  }) {
+        if (key === "Enter") {
+            setTime(target.value * 60);
+        }
+    }
+    (0,react__WEBPACK_IMPORTED_MODULE_2__.useEffect)(()=>{
+        js_cookie__WEBPACK_IMPORTED_MODULE_1__["default"].set("time", String(time));
+    }, [
+        time
+    ]);
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(CountdownContext.Provider, {
+        value: {
+            minutes,
+            seconds,
+            hasFinished,
+            isActive,
+            startCountdown,
+            resetCountdown
+        },
+        children: [
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
+                className: (_styles_pages_Home_module_css__WEBPACK_IMPORTED_MODULE_4___default().input),
+                type: "number",
+                onKeyDown: handleChange
+            }),
+            children
+        ]
+    });
+}
+
+__webpack_async_result__();
+} catch(e) { __webpack_async_result__(e); } });
 
 /***/ }),
 
-/***/ "./src/pages/index.tsx":
-/*!*****************************!*\
-  !*** ./src/pages/index.tsx ***!
-  \*****************************/
+/***/ 970:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Home),\n/* harmony export */   \"getServerSideProps\": () => (/* binding */ getServerSideProps)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ \"next/head\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _components_CompletedChallenges__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/CompletedChallenges */ \"./src/components/CompletedChallenges.tsx\");\n/* harmony import */ var _components_ExperienceBar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/ExperienceBar */ \"./src/components/ExperienceBar.tsx\");\n/* harmony import */ var _components_Profile__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Profile */ \"./src/components/Profile.tsx\");\n/* harmony import */ var _components_Countdown__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Countdown */ \"./src/components/Countdown.tsx\");\n/* harmony import */ var _components_ChallengeBox__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/ChallengeBox */ \"./src/components/ChallengeBox.tsx\");\n/* harmony import */ var _styles_pages_Home_module_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../styles/pages/Home.module.css */ \"./src/styles/pages/Home.module.css\");\n/* harmony import */ var _styles_pages_Home_module_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_styles_pages_Home_module_css__WEBPACK_IMPORTED_MODULE_9__);\n/* harmony import */ var _contexts_CountdownContext__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../contexts/CountdownContext */ \"./src/contexts/CountdownContext.tsx\");\n/* harmony import */ var _contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../contexts/ChallengesContext */ \"./src/contexts/ChallengesContext.tsx\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_components_CompletedChallenges__WEBPACK_IMPORTED_MODULE_2__, _components_ExperienceBar__WEBPACK_IMPORTED_MODULE_3__, _components_Profile__WEBPACK_IMPORTED_MODULE_4__, _components_Countdown__WEBPACK_IMPORTED_MODULE_5__, _components_ChallengeBox__WEBPACK_IMPORTED_MODULE_6__, _contexts_CountdownContext__WEBPACK_IMPORTED_MODULE_7__, _contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_8__]);\n([_components_CompletedChallenges__WEBPACK_IMPORTED_MODULE_2__, _components_ExperienceBar__WEBPACK_IMPORTED_MODULE_3__, _components_Profile__WEBPACK_IMPORTED_MODULE_4__, _components_Countdown__WEBPACK_IMPORTED_MODULE_5__, _components_ChallengeBox__WEBPACK_IMPORTED_MODULE_6__, _contexts_CountdownContext__WEBPACK_IMPORTED_MODULE_7__, _contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_8__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);\n\n\n\n\n\n\n\n\n\n\nfunction Home({ level , currentExperience , challengesCompleted , time  }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_8__.ChallengesProvider, {\n        level: level,\n        currentExperience: currentExperience,\n        challengesCompleted: challengesCompleted,\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_head__WEBPACK_IMPORTED_MODULE_1___default()), {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"title\", {\n                        children: \"In\\xedcio | te-meche\"\n                    }, void 0, false, {\n                        fileName: \"/home/carestiniw/Workspace/te-meche/src/pages/index.tsx\",\n                        lineNumber: 36,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        name: \"viewport\",\n                        content: \"width=device-width, initial-scale=1\"\n                    }, void 0, false, {\n                        fileName: \"/home/carestiniw/Workspace/te-meche/src/pages/index.tsx\",\n                        lineNumber: 37,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/home/carestiniw/Workspace/te-meche/src/pages/index.tsx\",\n                lineNumber: 35,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"main\", {\n                className: (_styles_pages_Home_module_css__WEBPACK_IMPORTED_MODULE_9___default().container),\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_ExperienceBar__WEBPACK_IMPORTED_MODULE_3__.ExperienceBar, {}, void 0, false, {\n                        fileName: \"/home/carestiniw/Workspace/te-meche/src/pages/index.tsx\",\n                        lineNumber: 40,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_contexts_CountdownContext__WEBPACK_IMPORTED_MODULE_7__.CountdownProvider, {\n                        userTime: time,\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"section\", {\n                            children: [\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                    children: [\n                                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_Profile__WEBPACK_IMPORTED_MODULE_4__.Profile, {}, void 0, false, {\n                                            fileName: \"/home/carestiniw/Workspace/te-meche/src/pages/index.tsx\",\n                                            lineNumber: 45,\n                                            columnNumber: 15\n                                        }, this),\n                                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_CompletedChallenges__WEBPACK_IMPORTED_MODULE_2__.CompletedChallenges, {}, void 0, false, {\n                                            fileName: \"/home/carestiniw/Workspace/te-meche/src/pages/index.tsx\",\n                                            lineNumber: 46,\n                                            columnNumber: 15\n                                        }, this),\n                                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_Countdown__WEBPACK_IMPORTED_MODULE_5__.Countdown, {}, void 0, false, {\n                                            fileName: \"/home/carestiniw/Workspace/te-meche/src/pages/index.tsx\",\n                                            lineNumber: 47,\n                                            columnNumber: 15\n                                        }, this)\n                                    ]\n                                }, void 0, true, {\n                                    fileName: \"/home/carestiniw/Workspace/te-meche/src/pages/index.tsx\",\n                                    lineNumber: 44,\n                                    columnNumber: 13\n                                }, this),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_ChallengeBox__WEBPACK_IMPORTED_MODULE_6__.ChallengeBox, {}, void 0, false, {\n                                        fileName: \"/home/carestiniw/Workspace/te-meche/src/pages/index.tsx\",\n                                        lineNumber: 50,\n                                        columnNumber: 15\n                                    }, this)\n                                }, void 0, false, {\n                                    fileName: \"/home/carestiniw/Workspace/te-meche/src/pages/index.tsx\",\n                                    lineNumber: 49,\n                                    columnNumber: 13\n                                }, this)\n                            ]\n                        }, void 0, true, {\n                            fileName: \"/home/carestiniw/Workspace/te-meche/src/pages/index.tsx\",\n                            lineNumber: 43,\n                            columnNumber: 11\n                        }, this)\n                    }, void 0, false, {\n                        fileName: \"/home/carestiniw/Workspace/te-meche/src/pages/index.tsx\",\n                        lineNumber: 42,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/home/carestiniw/Workspace/te-meche/src/pages/index.tsx\",\n                lineNumber: 39,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/home/carestiniw/Workspace/te-meche/src/pages/index.tsx\",\n        lineNumber: 30,\n        columnNumber: 5\n    }, this);\n}\nconst getServerSideProps = async (context)=>{\n    const { level , currentExperience , challengesCompleted , time  } = context.req.cookies;\n    return {\n        props: {\n            level: Number(level),\n            currentExperience: Number(currentExperience),\n            challengesCompleted: Number(challengesCompleted),\n            time: Number(time)\n        }\n    };\n};\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvcGFnZXMvaW5kZXgudHN4LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFBO0FBQTZCO0FBRTJDO0FBQ1o7QUFDWjtBQUNJO0FBQ007QUFFTDtBQUNZO0FBRUU7QUFXcEQsU0FBU1MsS0FBSyxFQUMzQkMsTUFBSyxFQUNMQyxrQkFBaUIsRUFDakJDLG9CQUFtQixFQUNuQkMsS0FBSSxFQUNNLEVBQUU7SUFDWixxQkFDRSw4REFBQ0wsMkVBQWtCQTtRQUNqQkUsT0FBT0E7UUFDUEMsbUJBQW1CQTtRQUNuQkMscUJBQXFCQTs7MEJBRXJCLDhEQUFDWixrREFBSUE7O2tDQUNILDhEQUFDYztrQ0FBTTs7Ozs7O2tDQUNQLDhEQUFDQzt3QkFBS0MsTUFBSzt3QkFBV0MsU0FBUTs7Ozs7Ozs7Ozs7OzBCQUVoQyw4REFBQ0M7Z0JBQUtDLFdBQVdiLGdGQUFnQjs7a0NBQy9CLDhEQUFDSixvRUFBYUE7Ozs7O2tDQUVkLDhEQUFDSyx5RUFBaUJBO3dCQUFDYyxVQUFVUjtrQ0FDM0IsNEVBQUNTOzs4Q0FDQyw4REFBQ0M7O3NEQUNDLDhEQUFDcEIsd0RBQU9BOzs7OztzREFDUiw4REFBQ0YsZ0ZBQW1CQTs7Ozs7c0RBQ3BCLDhEQUFDRyw0REFBU0E7Ozs7Ozs7Ozs7OzhDQUVaLDhEQUFDbUI7OENBQ0MsNEVBQUNsQixrRUFBWUE7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQU8zQixDQUFDO0FBRU0sTUFBTW1CLHFCQUF5QyxPQUFPQyxVQUFZO0lBQ3ZFLE1BQU0sRUFBRWYsTUFBSyxFQUFFQyxrQkFBaUIsRUFBRUMsb0JBQW1CLEVBQUVDLEtBQUksRUFBRSxHQUMzRFksUUFBUUMsR0FBRyxDQUFDQyxPQUFPO0lBRXJCLE9BQU87UUFDTEMsT0FBTztZQUNMbEIsT0FBT21CLE9BQU9uQjtZQUNkQyxtQkFBbUJrQixPQUFPbEI7WUFDMUJDLHFCQUFxQmlCLE9BQU9qQjtZQUM1QkMsTUFBTWdCLE9BQU9oQjtRQUNmO0lBQ0Y7QUFDRixFQUFFIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vdGUtbWVjaGUvLi9zcmMvcGFnZXMvaW5kZXgudHN4PzE5YTAiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEhlYWQgZnJvbSBcIm5leHQvaGVhZFwiO1xuXG5pbXBvcnQgeyBDb21wbGV0ZWRDaGFsbGVuZ2VzIH0gZnJvbSBcIi4uL2NvbXBvbmVudHMvQ29tcGxldGVkQ2hhbGxlbmdlc1wiO1xuaW1wb3J0IHsgRXhwZXJpZW5jZUJhciB9IGZyb20gXCIuLi9jb21wb25lbnRzL0V4cGVyaWVuY2VCYXJcIjtcbmltcG9ydCB7IFByb2ZpbGUgfSBmcm9tIFwiLi4vY29tcG9uZW50cy9Qcm9maWxlXCI7XG5pbXBvcnQgeyBDb3VudGRvd24gfSBmcm9tIFwiLi4vY29tcG9uZW50cy9Db3VudGRvd25cIjtcbmltcG9ydCB7IENoYWxsZW5nZUJveCB9IGZyb20gXCIuLi9jb21wb25lbnRzL0NoYWxsZW5nZUJveFwiO1xuXG5pbXBvcnQgc3R5bGVzIGZyb20gXCIuLi9zdHlsZXMvcGFnZXMvSG9tZS5tb2R1bGUuY3NzXCI7XG5pbXBvcnQgeyBDb3VudGRvd25Qcm92aWRlciB9IGZyb20gXCIuLi9jb250ZXh0cy9Db3VudGRvd25Db250ZXh0XCI7XG5pbXBvcnQgeyBHZXRTZXJ2ZXJTaWRlUHJvcHMgfSBmcm9tIFwibmV4dFwiO1xuaW1wb3J0IHsgQ2hhbGxlbmdlc1Byb3ZpZGVyIH0gZnJvbSBcIi4uL2NvbnRleHRzL0NoYWxsZW5nZXNDb250ZXh0XCI7XG5pbXBvcnQgQ29va2llcyBmcm9tIFwianMtY29va2llXCI7XG5pbXBvcnQgeyB1c2VFZmZlY3QsIHVzZVN0YXRlIH0gZnJvbSBcInJlYWN0XCI7XG5cbmludGVyZmFjZSBIb21lUHJvcHMge1xuICBsZXZlbDogbnVtYmVyO1xuICBjdXJyZW50RXhwZXJpZW5jZTogbnVtYmVyO1xuICBjaGFsbGVuZ2VzQ29tcGxldGVkOiBudW1iZXI7XG4gIHRpbWU6IG51bWJlcjtcbn1cblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gSG9tZSh7XG4gIGxldmVsLFxuICBjdXJyZW50RXhwZXJpZW5jZSxcbiAgY2hhbGxlbmdlc0NvbXBsZXRlZCxcbiAgdGltZSxcbn06IEhvbWVQcm9wcykge1xuICByZXR1cm4gKFxuICAgIDxDaGFsbGVuZ2VzUHJvdmlkZXJcbiAgICAgIGxldmVsPXtsZXZlbH1cbiAgICAgIGN1cnJlbnRFeHBlcmllbmNlPXtjdXJyZW50RXhwZXJpZW5jZX1cbiAgICAgIGNoYWxsZW5nZXNDb21wbGV0ZWQ9e2NoYWxsZW5nZXNDb21wbGV0ZWR9XG4gICAgPlxuICAgICAgPEhlYWQ+XG4gICAgICAgIDx0aXRsZT5JbsOtY2lvIHwgdGUtbWVjaGU8L3RpdGxlPlxuICAgICAgICA8bWV0YSBuYW1lPVwidmlld3BvcnRcIiBjb250ZW50PVwid2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTFcIiAvPlxuICAgICAgPC9IZWFkPlxuICAgICAgPG1haW4gY2xhc3NOYW1lPXtzdHlsZXMuY29udGFpbmVyfT5cbiAgICAgICAgPEV4cGVyaWVuY2VCYXIgLz5cblxuICAgICAgICA8Q291bnRkb3duUHJvdmlkZXIgdXNlclRpbWU9e3RpbWV9PlxuICAgICAgICAgIDxzZWN0aW9uPlxuICAgICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgICAgPFByb2ZpbGUgLz5cbiAgICAgICAgICAgICAgPENvbXBsZXRlZENoYWxsZW5nZXMgLz5cbiAgICAgICAgICAgICAgPENvdW50ZG93biAvPlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICA8ZGl2PlxuICAgICAgICAgICAgICA8Q2hhbGxlbmdlQm94IC8+XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8L3NlY3Rpb24+XG4gICAgICAgIDwvQ291bnRkb3duUHJvdmlkZXI+XG4gICAgICA8L21haW4+XG4gICAgPC9DaGFsbGVuZ2VzUHJvdmlkZXI+XG4gICk7XG59XG5cbmV4cG9ydCBjb25zdCBnZXRTZXJ2ZXJTaWRlUHJvcHM6IEdldFNlcnZlclNpZGVQcm9wcyA9IGFzeW5jIChjb250ZXh0KSA9PiB7XG4gIGNvbnN0IHsgbGV2ZWwsIGN1cnJlbnRFeHBlcmllbmNlLCBjaGFsbGVuZ2VzQ29tcGxldGVkLCB0aW1lIH0gPVxuICAgIGNvbnRleHQucmVxLmNvb2tpZXM7XG5cbiAgcmV0dXJuIHtcbiAgICBwcm9wczoge1xuICAgICAgbGV2ZWw6IE51bWJlcihsZXZlbCksXG4gICAgICBjdXJyZW50RXhwZXJpZW5jZTogTnVtYmVyKGN1cnJlbnRFeHBlcmllbmNlKSxcbiAgICAgIGNoYWxsZW5nZXNDb21wbGV0ZWQ6IE51bWJlcihjaGFsbGVuZ2VzQ29tcGxldGVkKSxcbiAgICAgIHRpbWU6IE51bWJlcih0aW1lKSxcbiAgICB9LFxuICB9O1xufTtcbiJdLCJuYW1lcyI6WyJIZWFkIiwiQ29tcGxldGVkQ2hhbGxlbmdlcyIsIkV4cGVyaWVuY2VCYXIiLCJQcm9maWxlIiwiQ291bnRkb3duIiwiQ2hhbGxlbmdlQm94Iiwic3R5bGVzIiwiQ291bnRkb3duUHJvdmlkZXIiLCJDaGFsbGVuZ2VzUHJvdmlkZXIiLCJIb21lIiwibGV2ZWwiLCJjdXJyZW50RXhwZXJpZW5jZSIsImNoYWxsZW5nZXNDb21wbGV0ZWQiLCJ0aW1lIiwidGl0bGUiLCJtZXRhIiwibmFtZSIsImNvbnRlbnQiLCJtYWluIiwiY2xhc3NOYW1lIiwiY29udGFpbmVyIiwidXNlclRpbWUiLCJzZWN0aW9uIiwiZGl2IiwiZ2V0U2VydmVyU2lkZVByb3BzIiwiY29udGV4dCIsInJlcSIsImNvb2tpZXMiLCJwcm9wcyIsIk51bWJlciJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/pages/index.tsx\n");
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ Home),
+/* harmony export */   "getServerSideProps": () => (/* binding */ getServerSideProps)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(968);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_CompletedChallenges__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(735);
+/* harmony import */ var _components_ExperienceBar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(355);
+/* harmony import */ var _components_Profile__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(627);
+/* harmony import */ var _components_Countdown__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(608);
+/* harmony import */ var _components_ChallengeBox__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(690);
+/* harmony import */ var _styles_pages_Home_module_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(712);
+/* harmony import */ var _styles_pages_Home_module_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_styles_pages_Home_module_css__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _contexts_CountdownContext__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(914);
+/* harmony import */ var _contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(777);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_components_CompletedChallenges__WEBPACK_IMPORTED_MODULE_2__, _components_ExperienceBar__WEBPACK_IMPORTED_MODULE_3__, _components_Profile__WEBPACK_IMPORTED_MODULE_4__, _components_Countdown__WEBPACK_IMPORTED_MODULE_5__, _components_ChallengeBox__WEBPACK_IMPORTED_MODULE_6__, _contexts_CountdownContext__WEBPACK_IMPORTED_MODULE_7__, _contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_8__]);
+([_components_CompletedChallenges__WEBPACK_IMPORTED_MODULE_2__, _components_ExperienceBar__WEBPACK_IMPORTED_MODULE_3__, _components_Profile__WEBPACK_IMPORTED_MODULE_4__, _components_Countdown__WEBPACK_IMPORTED_MODULE_5__, _components_ChallengeBox__WEBPACK_IMPORTED_MODULE_6__, _contexts_CountdownContext__WEBPACK_IMPORTED_MODULE_7__, _contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_8__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
+
+
+
+
+
+
+
+
+
+
+function Home({ level , currentExperience , challengesCompleted , time  }) {
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_contexts_ChallengesContext__WEBPACK_IMPORTED_MODULE_8__/* .ChallengesProvider */ .q, {
+        level: level,
+        currentExperience: currentExperience,
+        challengesCompleted: challengesCompleted,
+        children: [
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_head__WEBPACK_IMPORTED_MODULE_1___default()), {
+                children: [
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("title", {
+                        children: "In\xedcio | te-meche"
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                        name: "viewport",
+                        content: "width=device-width, initial-scale=1"
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("main", {
+                className: (_styles_pages_Home_module_css__WEBPACK_IMPORTED_MODULE_9___default().container),
+                children: [
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_ExperienceBar__WEBPACK_IMPORTED_MODULE_3__/* .ExperienceBar */ .E, {}),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_contexts_CountdownContext__WEBPACK_IMPORTED_MODULE_7__/* .CountdownProvider */ .M, {
+                        userTime: time,
+                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
+                            children: [
+                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                    children: [
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_Profile__WEBPACK_IMPORTED_MODULE_4__/* .Profile */ .N, {}),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_CompletedChallenges__WEBPACK_IMPORTED_MODULE_2__/* .CompletedChallenges */ .h, {}),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_Countdown__WEBPACK_IMPORTED_MODULE_5__/* .Countdown */ .I, {})
+                                    ]
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_ChallengeBox__WEBPACK_IMPORTED_MODULE_6__/* .ChallengeBox */ .u, {})
+                                })
+                            ]
+                        })
+                    })
+                ]
+            })
+        ]
+    });
+}
+const getServerSideProps = async (context)=>{
+    const { level , currentExperience , challengesCompleted , time  } = context.req.cookies;
+    return {
+        props: {
+            level: Number(level),
+            currentExperience: Number(currentExperience),
+            challengesCompleted: Number(challengesCompleted),
+            time: Number(time)
+        }
+    };
+};
+
+__webpack_async_result__();
+} catch(e) { __webpack_async_result__(e); } });
 
 /***/ }),
 
-/***/ "next/head":
-/*!****************************!*\
-  !*** external "next/head" ***!
-  \****************************/
+/***/ 968:
 /***/ ((module) => {
 
 "use strict";
@@ -192,10 +782,7 @@ module.exports = require("next/head");
 
 /***/ }),
 
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
+/***/ 689:
 /***/ ((module) => {
 
 "use strict";
@@ -203,21 +790,15 @@ module.exports = require("react");
 
 /***/ }),
 
-/***/ "react/jsx-dev-runtime":
-/*!****************************************!*\
-  !*** external "react/jsx-dev-runtime" ***!
-  \****************************************/
+/***/ 997:
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("react/jsx-dev-runtime");
+module.exports = require("react/jsx-runtime");
 
 /***/ }),
 
-/***/ "js-cookie":
-/*!****************************!*\
-  !*** external "js-cookie" ***!
-  \****************************/
+/***/ 915:
 /***/ ((module) => {
 
 "use strict";
@@ -225,10 +806,7 @@ module.exports = import("js-cookie");;
 
 /***/ }),
 
-/***/ "./challenges.json":
-/*!*************************!*\
-  !*** ./challenges.json ***!
-  \*************************/
+/***/ 207:
 /***/ ((module) => {
 
 "use strict";
@@ -243,7 +821,7 @@ module.exports = JSON.parse('[{"type":"body","description":"Estique um de seus b
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__("./src/pages/index.tsx"));
+var __webpack_exports__ = (__webpack_exec__(970));
 module.exports = __webpack_exports__;
 
 })();

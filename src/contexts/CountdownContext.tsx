@@ -63,16 +63,13 @@ export function CountdownProvider({
     }
   }, [isActive, time]);
 
-  function handleChange({
-    key,
-    target,
-  }: React.KeyboardEvent<HTMLInputElement>) {
+  function handleChange({ key, target }: any) {
     if (key === "Enter") {
       setTime(target.value * 60);
     }
   }
   useEffect(() => {
-    Cookies.set("time", time);
+    Cookies.set("time", String(time));
   }, [time]);
 
   return (
